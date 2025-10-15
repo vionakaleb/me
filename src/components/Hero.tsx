@@ -2,7 +2,7 @@ import { usePortfolioStore } from "../store/usePortfolioStore";
 import ScrollLink from "../utils/ScrollLink";
 
 export const Hero: React.FC = () => {
-  const { name, description, bg } = usePortfolioStore(
+  const { name, description, bg, resume } = usePortfolioStore(
     (state) => state.data.main
   );
 
@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
             View My Work
           </ScrollLink>
           <a
-            href="/path-to-your-resume.pdf"
+            href={`/${resume}`}
             download
             className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >

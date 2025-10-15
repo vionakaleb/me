@@ -19,6 +19,7 @@ export interface MainData {
   description: string;
   image: string;
   bg: string;
+  resume: string;
   bios: string[];
   bios2: string[];
   bios3: string[];

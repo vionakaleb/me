@@ -7,6 +7,7 @@ export const portfolioData: PortfolioData = {
     description: "A Software Engineer",
     image: "profilepic.jpg",
     bg: "profile-bg.JPG",
+    resume: "viona-kaleb-resume.pdf",
     bios: [
       "Hello, I've been a Front-End Developer since 2018 (5+ years of experience).",
       "Aside from programming, I love reading books, watching anime, exercise and hiking.",
@@ -39,8 +40,7 @@ export const portfolioData: PortfolioData = {
       state: "Banten",
       zip: "15336",
       country: "Indonesia",
-      gmaps:
-        "https://www.google.com/maps/place/Kabupaten+Tangerang,+Banten/@-6.1818662,106.3924998,11z/data=!3m1!4b1!4m6!3m5!1s0x2e69ffb6b0ad7ae3:0x301576d14feb9b0!8m2!3d-6.1870007!4d106.487658!16zL20vMGdicjht",
+      gmaps: "",
     },
     social: [
       {
