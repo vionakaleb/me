@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 
-// Custom Scroll Link for smooth scrolling between sections
-const ScrollLink: React.FC<{ to: string; children: React.ReactNode; className?: string; onClick?: () => void }> = ({ to, children, className, onClick }) => {
+const ScrollLink: React.FC<{
+  to: string;
+  children: React.ReactNode;
+  className?: string;
+  onClick?: () => void;
+}> = ({ to, children, className, onClick }) => {
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     const element = document.getElementById(to.substring(1));
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
     if (onClick) {
       onClick();
