@@ -1,75 +1,121 @@
-# React + TypeScript + Vite
+# 🚀 Viona Kaleb | Professional Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Alt Text for Screenshot](./public/app-preview.png)
 
-Currently, two official plugins are available:
+This is a single-page application (SPA) portfolio for Viona Kaleb, a professional Front-End Software Engineer with 5+ years of experience. The site is designed for performance, responsiveness, and clean code architecture using the modern Vite/React/TypeScript stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application dynamically renders content, including career history, technical skills, and a project gallery, all sourced from local JSON data for rapid updates.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+    ⚡️ Highly Performant: Built with Vite for ultra-fast development and optimized production builds.
 
-Note: This will impact Vite dev & build performances.
+    🌓 Dark Mode Native: Designed with a clean, dark aesthetic using Tailwind CSS.
 
-## Expanding the ESLint configuration
+    📱 Fully Responsive: Adaptive layout ensures perfect viewing across all devices (mobile, tablet, desktop).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+    ⚛️ Component-Driven: Clean, separated component architecture using React and TypeScript.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+    🎯 Global State Management: Utilizes Zustand for simple, fast, and centralized application state.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+    🖼️ Interactive Gallery: Project images are displayed in a grid and open into a responsive fullscreen viewer using Swiper.js.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+    🧭 Timeline View: Dynamic rendering of Education and Work Experience in a clean, alternating timeline layout.
+
+## 🛠 Tech Stack
+
+Framework: React
+Language: TypeScript
+Bundler: Vite
+Styling: Tailwind CSS
+State: Zustand
+Icons: Lucide React
+Interactivity: Swiper.js
+
+Used for the modern, touch-friendly project gallery modal.
+
+## 💻 Installation and Local Setup
+
+To get this portfolio running on your local machine:
+
+1. Clone the repository
+
+```
+git clone <YOUR_REPOSITORY_URL>
+cd portfolio-project
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Install all necessary packages, including zustand, lucide-react, and the development tools.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+npm install
+npm install -D gh-pages # Required for deployment
+```
+
+3. Run the Development Server
+
+```
+npm run dev
+```
+
+The application will be available at http://localhost:5173 (or similar).
+
+## ⚙️ Project Structure
+
+The project follows a modular, scalable structure:
+
+```
+├── public/
+├── src/
+│   ├── components/       # UI Components (Navigation, Hero, Portfolio, etc.)
+│   ├── data/             # JSON Data Source
+│   ├── store/            # Zustand State Store (usePortfolioStore.ts)
+│   ├── types/            # TypeScript Interface Definitions (dataTypes.ts)
+│   ├── utils/            # Utility Components (ScrollLink.tsx)
+│   ├── App.tsx           # Main application wrapper
+│   └── main.tsx          # Entry point
+├── .gitignore
+├── index.html            # Entry HTML (includes SEO and meta tags)
+├── package.json
+├── tailwind.config.js    # Tailwind configuration
+└── vite.config.ts        # Vite configuration (Base path set for GitHub Pages)
+```
+
+## 🚀 Deployment to GitHub Pages
+
+The project is pre-configured to deploy effortlessly to GitHub Pages using the gh-pages library.
+
+1. Update vite.config.ts
+
+Ensure the base property in vite.config.ts is set correctly to your repository name:
+
+```
+// vite.config.ts
+export default defineConfig({
+  // **MAKE SURE THIS MATCHES YOUR REPO NAME**
+  base: '/<YOUR_REPOSITORY_NAME>/',
+  // ...
+});
+```
+
+2. Deploy Script
+
+Run the following command. The predeploy script automatically runs the optimized production build before pushing.
+
+```
+npm run deploy
+```
+
+3. Configure GitHub (First Time Only)
+
+Navigate to your GitHub repository Settings > Pages and set the Source branch to gh-pages. Your site will be live shortly!
+
+✅ Code Quality and Performance Notes
+React Compiler Enabled
+
+This template utilizes the React Compiler for automatic memoization and performance improvements, ensuring components re-render only when necessary.
+Type-Aware ESLint
+
+For maximum code quality, the ESLint configuration is structured to enable advanced type-aware rules (e.g., tseslint.configs.recommendedTypeChecked), requiring the use of the languageOptions.parserOptions.project setting to link to tsconfig.app.json and tsconfig.node.json. This ensures your code is strictly compliant with best practices.

@@ -87,8 +87,8 @@ export const portfolioData: PortfolioData = {
         years: "2024-now",
         description: "",
         descriptions: [
-          "Smart Branch by Mandiri: Develop and maintain features that is used by Bank Mandiri Customers to fill in data when they visit a branch.",
-          "KOPRA by Mandiri: Maintain and bugfixing for Mandiri Global Trade (MGT) and Mandiri Cash Management (MCM) features in KOPRA.",
+          "Smart Branch by Mandiri: The platform is made to automate and digitalize bank branch operations",
+          "KOPRA by Mandiri: Bank Mandiri's Comprehensive Wholesale Financial Solutions for business",
         ],
         projects: ["Smart Branch", "KOPRA"],
         website: "https://www.bankmandiri.co.id/smart-branch",
@@ -282,7 +282,7 @@ export const portfolioData: PortfolioData = {
       {
         title: "Smart Branch by Mandiri",
         description:
-          "Deployed in Bank Mandiri branches all over Indonesia, the platform is made to automate and simplify bank branch operations.",
+          "Deployed in Bank Mandiri branches all over Indonesia, the platform is made to automate and digitalize bank branch operations.",
         image: "E-FormLanding.png",
         url: "https://www.bankmandiri.co.id/smart-branch",
         github: "",
