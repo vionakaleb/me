@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
           ))}
         </div>
         <p className="text-gray-500 text-sm mt-4">
-          &copy; {new Date().getFullYear()}{" "}
+          &copy;{new Date().getFullYear()}{" "}
           {usePortfolioStore.getState().data.main.fullname}. All Rights
           Reserved.
         </p>

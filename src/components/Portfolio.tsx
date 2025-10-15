@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { usePortfolioStore } from "../store/usePortfolioStore";
 import { useCallback, useState } from "react";
 import type { PortfolioItem } from "../interface";
-import { ArrowLeft, ArrowRight, Github, Link, Monitor, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, Github, Link, X } from "lucide-react";
 
 export const Portfolio: React.FC = () => {
   const portfolioData = usePortfolioStore((state) => state.data.portfolio);
@@ -44,29 +44,31 @@ export const Portfolio: React.FC = () => {
             <div
               key={`web-${index}`}
               className="bg-gray-900 rounded-xl overflow-hidden shadow-2xl group border border-gray-700 hover:border-indigo-500 transition-all duration-300"
-              onClick={() => openModal(index)}
             >
               <img
-                src={`/images/portfolio/${project.image}`}
+                src={`/me/images/portfolio/${project.image}`}
                 alt={project.title}
                 className="w-full h-48 object-cover transition duration-300 group-hover:scale-105"
+                onClick={() => openModal(index)}
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-gray-400 mb-4 h-12 overflow-hidden">
-                  {project.technology.join(", ")} focused application.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technology.map((tech: string, i: number) => (
-                    <span
-                      key={i}
-                      className="bg-indigo-600/20 text-indigo-300 text-xs font-semibold px-3 py-1 rounded-full border border-indigo-600"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                <div onClick={() => openModal(index)}>
+                  <h3 className="text-xl font-bold text-white mb-2">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-400 mb-4 h-12 overflow-hidden">
+                    {project.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.technology.map((tech: string, i: number) => (
+                      <span
+                        key={i}
+                        className="bg-indigo-600/20 text-indigo-300 text-xs font-semibold px-3 py-1 rounded-full border border-indigo-600"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 <div className="flex justify-start gap-4 mt-4 border-t pt-4 border-gray-700">
                   {project.url && (
@@ -159,7 +161,7 @@ export const Portfolio: React.FC = () => {
               >
                 <div className="h-full w-full flex items-center justify-center relative">
                   <img
-                    src={`/images/portfolio/${project.image}`}
+                    src={`/me/images/portfolio/${project.image}`}
                     alt={project.title}
                     className="max-h-[80vh] max-w-full object-contain shadow-2xl rounded-lg"
                   />

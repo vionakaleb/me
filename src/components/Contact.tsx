@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { usePortfolioStore } from "../store/usePortfolioStore";
-import { Code, X, Zap } from "lucide-react";
+import { Code, MailIcon, X, Zap } from "lucide-react";
 import { SectionTitle } from "./SectionTitle";
 
 export const Contact: React.FC = () => {
@@ -9,8 +9,7 @@ export const Contact: React.FC = () => {
     "idle" | "sending" | "success" | "error"
   >("idle");
 
-  const [emailName, setEmailName] = useState<string>("");
-  const [emailAddress, setEmailAddress] = useState<string>("");
+  const [emailSubject, setEmailSubject] = useState<string>("");
   const [emailMessage, setEmailMessage] = useState<string>("");
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -18,7 +17,7 @@ export const Contact: React.FC = () => {
     setStatus("sending");
 
     const recipient = email;
-    const subject = emailName + emailAddress;
+    const subject = emailSubject;
     const body = emailMessage;
     window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(
       subject
@@ -62,36 +61,36 @@ export const Contact: React.FC = () => {
         <SectionTitle title="Get In Touch" id="contact-title" />
         <p className="text-center text-lg mb-8 text-gray-300">
           I'm currently open to new opportunities. <br />
-          Feel free to reach out directly at{" "}
-          <a
+          Feel free to reach me out!
+          {/* <a
             href={`mailto:${email}`}
             className="text-indigo-400 hover:text-indigo-300 font-semibold"
           >
             {email}
           </a>{" "}
-          or use the form below!
+          or use the form below! */}
         </p>
         <div className="p-8 bg-gray-800 rounded-xl shadow-2xl border border-gray-700">
-          <h3 className="text-xl font-semibold text-white mb-6">
-            Send Me a Message
+          <h3 className="text-xl font-semibold text-white mb-6 flex gap-2 items-center">
+            <MailIcon /> Send me an email
           </h3>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="sr-only">
-                Name
+              <label htmlFor="subject" className="sr-only">
+                Subject
               </label>
               <input
                 type="text"
-                id="name"
+                id="subject"
                 required
                 className="block w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"
-                placeholder="Your Name"
+                placeholder="Subject"
                 onChange={(e) => {
-                  setEmailName(e.target.value);
+                  setEmailSubject(e.target.value);
                 }}
               />
             </div>
-            <div>
+            {/* <div>
               <label htmlFor="email" className="sr-only">
                 Email
               </label>
@@ -105,7 +104,7 @@ export const Contact: React.FC = () => {
                   setEmailAddress(e.target.value);
                 }}
               />
-            </div>
+            </div> */}
             <div>
               <label htmlFor="message" className="sr-only">
                 Message
@@ -115,7 +114,7 @@ export const Contact: React.FC = () => {
                 rows={4}
                 required
                 className="block w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"
-                placeholder="Your Message"
+                placeholder="Message"
                 onChange={(e) => {
                   setEmailMessage(e.target.value);
                 }}
@@ -132,7 +131,7 @@ export const Contact: React.FC = () => {
                     : "bg-indigo-600 hover:bg-indigo-700 shadow-indigo-600/50"
                 }`}
               >
-                {status === "sending" ? "Sending..." : "Send Message"}
+                {status === "sending" ? "Sending..." : "Send Email"}
               </button>
             </div>
           </form>

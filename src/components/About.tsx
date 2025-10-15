@@ -1,14 +1,15 @@
-import { Globe, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { usePortfolioStore } from "../store/usePortfolioStore";
 import { SectionTitle } from "./SectionTitle";
 
 export const About: React.FC = () => {
-  const { fullname, image, bios, bios2, bios3, address } = usePortfolioStore(
+  const { fullname, image, bios, bios2, address } = usePortfolioStore(
     (state) => state.data.main
   );
-  const bioText = [...bios, ...bios2]
-    .filter((line) => line.trim() !== "My daily tasks are to: ")
-    .join(" ");
+  const bioText = bios;
+  // const bioText = [...bios, ...bios2]
+  //   .filter((line) => line.trim() !== "My daily tasks are to: ")
+  //   .join(" ");
 
   const getJobDuties = () => {
     return bios2
@@ -27,7 +28,7 @@ export const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-1 flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-xl border border-gray-700">
             <img
-              src={`/images/` + image}
+              src={`/me/images/` + image}
               alt={`A portrait of ${fullname}`}
               className="rounded-full w-48 h-48 object-cover shadow-2xl border-4 border-indigo-600/50 mb-6"
               onError={(e) => {

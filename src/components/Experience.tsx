@@ -46,7 +46,7 @@ export const Experience: React.FC = () => {
         >
           <div className="flex gap-4 items-center">
             <img
-              src={`/images/${item.logo}`}
+              src={`/me/images/${item.logo}`}
               alt={item.description}
               className="h-16 w-16 rounded-md"
             />
@@ -106,7 +106,7 @@ export const Experience: React.FC = () => {
               key={`edu-${index}`}
               item={edu}
               isEducation={true}
-              index={index + 1}
+              index={education.length - index}
             />
           ))}
         </div>
