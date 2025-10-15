@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
   );
 
   const heroStyle: React.CSSProperties = {
-    backgroundImage: `linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)), url('https://placehold.co/1920x1080/1f2937/4f46e5?text=${bg}')`,
+    backgroundImage: `linear-gradient(rgba(17, 24, 39, 0), rgba(17, 24, 39, 1)), url('/images/${bg}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };

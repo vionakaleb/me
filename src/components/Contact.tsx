@@ -9,12 +9,22 @@ export const Contact: React.FC = () => {
     "idle" | "sending" | "success" | "error"
   >("idle");
 
+  const [emailName, setEmailName] = useState<string>("");
+  const [emailAddress, setEmailAddress] = useState<string>("");
+  const [emailMessage, setEmailMessage] = useState<string>("");
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
 
+    const recipient = email;
+    const subject = emailName + emailAddress;
+    const body = emailMessage;
+    window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
     setTimeout(() => {
-      console.log("Form submitted");
       setStatus("success");
       (e.target as HTMLFormElement).reset();
     }, 2000);
@@ -51,8 +61,8 @@ export const Contact: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle title="Get In Touch" id="contact-title" />
         <p className="text-center text-lg mb-8 text-gray-300">
-          I'm currently open to new opportunities. Feel free to reach out
-          directly at{" "}
+          I'm currently open to new opportunities. <br />
+          Feel free to reach out directly at{" "}
           <a
             href={`mailto:${email}`}
             className="text-indigo-400 hover:text-indigo-300 font-semibold"
@@ -76,6 +86,9 @@ export const Contact: React.FC = () => {
                 required
                 className="block w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"
                 placeholder="Your Name"
+                onChange={(e) => {
+                  setEmailName(e.target.value);
+                }}
               />
             </div>
             <div>
@@ -88,6 +101,9 @@ export const Contact: React.FC = () => {
                 required
                 className="block w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"
                 placeholder="Your Email"
+                onChange={(e) => {
+                  setEmailAddress(e.target.value);
+                }}
               />
             </div>
             <div>
@@ -100,6 +116,9 @@ export const Contact: React.FC = () => {
                 required
                 className="block w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"
                 placeholder="Your Message"
+                onChange={(e) => {
+                  setEmailMessage(e.target.value);
+                }}
               ></textarea>
             </div>
             {getStatusMessage()}

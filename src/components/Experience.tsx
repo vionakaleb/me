@@ -16,13 +16,13 @@ export const Experience: React.FC = () => {
     const baseClasses = "relative mb-12 flex items-center w-full";
 
     const circleStyle =
-      "absolute left-1/2 -ml-5 w-10 h-10 bg-indigo-600 rounded-full border-4 border-gray-900 flex items-center justify-center shadow-lg z-10";
+      "absolute left-1/2 p-[4px] -ml-5 w-10 h-10 bg-indigo-600 rounded-full border-4 border-gray-900 flex items-center justify-center shadow-lg z-10 hidden md:block";
     const titleClasses = "text-xl font-bold text-white mb-1";
     const subtitleClasses = "text-gray-400";
     const periodClasses = "text-indigo-400 font-medium text-sm mt-1";
     const descClasses = "text-gray-300 leading-relaxed text-sm";
     const sideClasses =
-      "md:w-5/12 p-4 rounded-xl shadow-xl border border-gray-700 bg-gray-800 transition-transform duration-300 hover:scale-[1.02]";
+      "md:w-5/12 w-full p-4 rounded-xl shadow-xl border border-gray-700 bg-gray-800 transition-transform duration-300 hover:scale-[1.02] hover:shadow-indigo-500/20";
 
     return (
       <div
@@ -30,9 +30,9 @@ export const Experience: React.FC = () => {
       >
         <div className={circleStyle}>
           {isEducation ? (
-            <GraduationCap className="w-5 h-5 text-white" />
+            <GraduationCap className="w-6 h-6 text-white" />
           ) : (
-            <Briefcase className="w-5 h-5 text-white" />
+            <Briefcase className="w-6 h-6 text-white" />
           )}
         </div>
 
@@ -44,21 +44,30 @@ export const Experience: React.FC = () => {
               : " mr-auto md:ml-12 text-left")
           }
         >
-          <h3 className={titleClasses}>
-            {isEducation
-              ? (item as EducationItem).school
-              : (item as WorkItem).company}
-          </h3>
-          <p className={subtitleClasses}>
-            {isEducation
-              ? (item as EducationItem).degree
-              : (item as WorkItem).title}
-          </p>
-          <p className={periodClasses}>
-            {isEducation
-              ? (item as EducationItem).graduated
-              : (item as WorkItem).years}
-          </p>
+          <div className="flex gap-4 items-center">
+            <img
+              src={`/images/${item.logo}`}
+              alt={item.description}
+              className="h-16 w-16 rounded-md"
+            />
+            <div>
+              <h3 className={titleClasses}>
+                {isEducation
+                  ? (item as EducationItem).school
+                  : (item as WorkItem).company}
+              </h3>
+              <p className={subtitleClasses}>
+                {isEducation
+                  ? (item as EducationItem).degree
+                  : (item as WorkItem).title}
+              </p>
+              <p className={periodClasses}>
+                {isEducation
+                  ? (item as EducationItem).graduated
+                  : (item as WorkItem).years}
+              </p>
+            </div>
+          </div>
           <div className="mt-3">
             {isEducation ? (
               <p className={descClasses}>

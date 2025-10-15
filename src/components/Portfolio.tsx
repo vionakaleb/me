@@ -8,9 +8,6 @@ import { useCallback, useState } from "react";
 import type { PortfolioItem } from "../interface";
 import { ArrowLeft, ArrowRight, Github, Link, Monitor, X } from "lucide-react";
 
-const getPlaceholderImage = (text: string) =>
-  `https://placehold.co/600x400/1f2937/d1d5db?text=${encodeURIComponent(text)}`;
-
 export const Portfolio: React.FC = () => {
   const portfolioData = usePortfolioStore((state) => state.data.portfolio);
 
@@ -152,6 +149,8 @@ export const Portfolio: React.FC = () => {
             keyboard={true}
             className="w-full max-w-6xl h-full max-h-[90vh]"
             loop={true}
+            parallax
+            zoom
           >
             {projects.map((project: PortfolioItem, index: number) => (
               <SwiperSlide
@@ -160,12 +159,12 @@ export const Portfolio: React.FC = () => {
               >
                 <div className="h-full w-full flex items-center justify-center relative">
                   <img
-                    src={getPlaceholderImage(project.title)}
+                    src={`/images/portfolio/${project.image}`}
                     alt={project.title}
                     className="max-h-[80vh] max-w-full object-contain shadow-2xl rounded-lg"
                   />
 
-                  <div className="absolute bottom-0 md:bottom-[-40px] text-center w-full p-4">
+                  <div className="absolute bottom-0 text-center w-full p-4">
                     <h4 className="text-xl font-bold text-white">
                       {project.title}
                     </h4>
