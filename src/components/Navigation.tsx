@@ -62,7 +62,15 @@ export const Navigation: React.FC = () => {
               to="#hero"
               className="text-white font-bold text-xl hover:text-indigo-400 transition-colors"
             >
-              {portfolioData.main.name}
+              <div className="flex gap-2">
+                <img
+                  src="/me/logo.svg"
+                  width="30"
+                  height="30"
+                  className="rounded-sm"
+                />
+                {portfolioData.main.name}
+              </div>
             </ScrollLink>
           </div>
           <div className="hidden md:block">
