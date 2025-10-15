@@ -16,7 +16,7 @@ export const Experience: React.FC = () => {
     const baseClasses = "relative mb-12 flex items-center w-full";
 
     const circleStyle =
-      "absolute left-1/2 -ml-4 w-8 h-8 bg-indigo-600 rounded-full border-4 border-gray-900 flex items-center justify-center shadow-lg z-10";
+      "absolute left-1/2 -ml-5 w-10 h-10 bg-indigo-600 rounded-full border-4 border-gray-900 flex items-center justify-center shadow-lg z-10";
     const titleClasses = "text-xl font-bold text-white mb-1";
     const subtitleClasses = "text-gray-400";
     const periodClasses = "text-indigo-400 font-medium text-sm mt-1";
@@ -30,9 +30,9 @@ export const Experience: React.FC = () => {
       >
         <div className={circleStyle}>
           {isEducation ? (
-            <GraduationCap className="w-4 h-4 text-white" />
+            <GraduationCap className="w-5 h-5 text-white" />
           ) : (
-            <Briefcase className="w-4 h-4 text-white" />
+            <Briefcase className="w-5 h-5 text-white" />
           )}
         </div>
 
@@ -88,11 +88,10 @@ export const Experience: React.FC = () => {
           id="experience-title"
         />
         <div className="relative">
-          <div className="absolute left-1/2 -ml-px w-0.5 h-full bg-gray-700 hidden md:block"></div>
-
           <h3 className="text-2xl font-bold text-indigo-400 text-center mb-8 pt-4">
             Education
           </h3>
+          <div className="absolute left-1/2 -ml-px w-0.5 h-full bg-gray-700 hidden md:block"></div>
           {education.map((edu: EducationItem, index: number) => (
             <TimelineItem
               key={`edu-${index}`}
@@ -101,10 +100,12 @@ export const Experience: React.FC = () => {
               index={index + 1}
             />
           ))}
-
+        </div>
+        <div className="relative">
           <h3 className="text-2xl font-bold text-indigo-400 text-center mb-8 pt-12">
             Work Experience
           </h3>
+          <div className="absolute left-1/2 -ml-px w-0.5 h-full bg-gray-700 hidden md:block"></div>
           {workHistory.map((work: WorkItem, index: number) => (
             <TimelineItem
               key={`work-${index}`}
