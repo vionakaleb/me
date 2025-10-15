@@ -20,10 +20,10 @@ export const Hero: React.FC = () => {
     >
       <div className="max-w-4xl mx-auto px-4 p-8 rounded-xl backdrop-blur-sm bg-gray-900/40 border border-indigo-700/50 shadow-2xl">
         <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4 animate-fadeInDown">
-          Hi, I'm **{name}**
+          Hi, I'm *{name}*
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-8 animate-fadeInUp delay-200">
-          {description} Building Modern & Accessible Web Experiences.
+          {description} Building Modern & Accessible Web Apps.
         </p>
         <div className="flex justify-center gap-4">
           <ScrollLink

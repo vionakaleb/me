@@ -64,7 +64,7 @@ export const Navigation: React.FC = () => {
             >
               <div className="flex gap-2">
                 <img
-                  src="/me/logo.svg"
+                  src="/me/logo-dark.jpg"
                   width="30"
                   height="30"
                   className="rounded-sm"

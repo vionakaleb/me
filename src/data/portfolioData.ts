@@ -9,7 +9,7 @@ export const portfolioData: PortfolioData = {
     bg: "profile-bg.JPG",
     resume: "viona-kaleb-resume.pdf",
     bios: [
-      "Software Engineer with over 6 years of experience specializing in front-end and a few full-stack development. I am passionate about building high-performance, user-friendly web applications and translating complex designs into seamless digital experiences.",
+      "Hello, I have been a Software Engineer since 2018. I mostly do Front-End web development, simple Back-End and AI projects. With over six years of experience in software engineering, specializing in frontend development, I am eager to bring my skills and passion for web technologies to your team.",
     ],
     bios2: [
       "- Developing features from UI/UX designs",
@@ -290,7 +290,8 @@ export const portfolioData: PortfolioData = {
       },
       {
         title: "KOPRA by Mandiri",
-        description: "Comprehensive Wholesale Financial Solutions.",
+        description:
+          "Bank Mandiri's Comprehensive Wholesale Financial Solutions for business.",
         image: "KopraSOPP.png",
         url: "https://koprabymandiri.com/",
         github: "",
@@ -298,15 +299,15 @@ export const portfolioData: PortfolioData = {
       },
       {
         title: "YourPropFirm",
-        description: "All-in-One Prop Firm Solution.",
+        description: "All-in-one forex dashboard built for prop firm solution.",
         image: "YourPropFirmDashboardV2.png",
         url: "https://yourpropfirm.com/",
-        github: "https://hypestacks.com/",
-        technology: ["React.js", "Next.js", "TailwindCSS", "PowerBI"],
+        github: "",
+        technology: ["Next.js", "TailwindCSS", "PowerBI"],
       },
       {
         title: "Verona by Telkomsel",
-        description: "Vendor management system by Telkomsel",
+        description: "Telkomsel's vendor management system.",
         image: "Verona.png",
         url: "https://verona.telkomsel.com/",
         github: "",
@@ -329,7 +330,7 @@ export const portfolioData: PortfolioData = {
         technology: ["React.js", "Redux", "Tailwind"],
       },
       {
-        title: "Supreme Courts - Wayfinding App",
+        title: "Supreme Courts",
         description: "Wayfinding app for Supreme Courts Singapore",
         image: "SupremeCourts.jpg",
         url: "https://www.adactive.asia/id",
@@ -337,7 +338,7 @@ export const portfolioData: PortfolioData = {
         technology: ["React.js"],
       },
       {
-        title: "Singapore Discovery Centre - Wayfinding App",
+        title: "Singapore Discovery Centre",
         description: "Wayfinding app for Singapore Discovery Centre",
         image: "SDC.jpg",
         url: "https://www.adactive.asia/id",
@@ -345,7 +346,7 @@ export const portfolioData: PortfolioData = {
         technology: ["React.js"],
       },
       {
-        title: "Woodsquare - Wayfinding App",
+        title: "Woodsquare",
         description: "Wayfinding app for Woodsquare Singapore",
         image: "Woodsquare.jpg",
         url: "https://www.adactive.asia/id",

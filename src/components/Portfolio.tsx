@@ -77,9 +77,9 @@ export const Portfolio: React.FC = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-indigo-400 hover:text-white transition-colors flex items-center"
-                      title="Live Demo"
+                      title="Website"
                     >
-                      <Link className="w-5 h-5 mr-1" /> Live Demo
+                      <Link className="w-5 h-5 mr-1" /> Website
                     </a>
                   )}
                   {project.github && (
@@ -167,11 +167,13 @@ export const Portfolio: React.FC = () => {
                   />
 
                   <div className="absolute bottom-0 text-center w-full p-4">
-                    <h4 className="text-xl font-bold text-white">
-                      {project.title}
-                    </h4>
+                    <a href={project.url}>
+                      <h4 className="text-xl font-bold text-white">
+                        {project.title}
+                      </h4>
+                    </a>
                     <p className="text-gray-400">{project.description}</p>
-                    {project.url && (
+                    {/* {project.url && (
                       <a
                         href={project.url}
                         target="_blank"
@@ -180,7 +182,7 @@ export const Portfolio: React.FC = () => {
                       >
                         <Link className="w-4 h-4 mr-1" /> View Live Project
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </SwiperSlide>
