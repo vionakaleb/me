@@ -8,22 +8,25 @@ The application dynamically renders content, including career history, technical
 
 ## ✨ Key Features
 
-    ⚡️ Highly Performant: Built with Vite for ultra-fast development and optimized production builds.
+```
+⚡️ Highly Performant: Built with Vite for ultra-fast development and optimized production builds.
 
-    🌓 Dark Mode Native: Designed with a clean, dark aesthetic using Tailwind CSS.
+🌓 Dark Mode Native: Designed with a clean, dark aesthetic using Tailwind CSS.
 
-    📱 Fully Responsive: Adaptive layout ensures perfect viewing across all devices (mobile, tablet, desktop).
+📱 Fully Responsive: Adaptive layout ensures perfect viewing across all devices (mobile, tablet, desktop).
 
-    ⚛️ Component-Driven: Clean, separated component architecture using React and TypeScript.
+⚛️ Component-Driven: Clean, separated component architecture using React and TypeScript.
 
-    🎯 Global State Management: Utilizes Zustand for simple, fast, and centralized application state.
+🎯 Global State Management: Utilizes Zustand for simple, fast, and centralized application state.
 
-    🖼️ Interactive Gallery: Project images are displayed in a grid and open into a responsive fullscreen viewer using Swiper.js.
+🖼️ Interactive Gallery: Project images are displayed in a grid and open into a responsive fullscreen viewer using Swiper.js.
 
-    🧭 Timeline View: Dynamic rendering of Education and Work Experience in a clean, alternating timeline layout.
+🧭 Timeline View: Dynamic rendering of Education and Work Experience in a clean, alternating timeline layout.
+```
 
 ## 🛠 Tech Stack
 
+```
 Framework: React
 Language: TypeScript
 Bundler: Vite
@@ -31,6 +34,7 @@ Styling: Tailwind CSS
 State: Zustand
 Icons: Lucide React
 Interactivity: Swiper.js
+```
 
 Used for the modern, touch-friendly project gallery modal.
 
