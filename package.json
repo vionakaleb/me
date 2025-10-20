@@ -1,6 +1,7 @@
 {
   "name": "me",
   "homepage": "https://vionakaleb.github.io/me",
+  "author": "Viona Kaleb <vionakaleb@gmail.com>(https://vionakaleb.github.io/me)",
   "private": true,
   "version": "2.1.1",
   "type": "module",
