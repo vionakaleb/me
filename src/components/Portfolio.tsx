@@ -27,7 +27,7 @@ export const Portfolio: React.FC = () => {
     document.body.style.overflow = "auto";
   }, []);
 
-  const sectionTitle = "My Work & Projects";
+  const sectionTitle = "Work & Projects";
 
   return (
     <section id="portfolio" className="py-24 bg-gray-800">
