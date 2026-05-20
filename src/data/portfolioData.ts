@@ -68,7 +68,7 @@ export const portfolioData: PortfolioData = {
       {
         school: "President University",
         degree: "MSIT",
-        graduated: "Now",
+        graduated: "2026",
         description: "Studying Postgraduate Master of Science in IT.",
         logo: "campus.png",
       },
@@ -84,7 +84,7 @@ export const portfolioData: PortfolioData = {
       {
         company: "Bank Mandiri",
         title: "Front-End Web Developer",
-        years: "2024-now",
+        years: "Nov 2023 - Now",
         description: "",
         descriptions: [
           "Smart Branch by Mandiri: The platform is made to automate and digitalize bank branch operations",
@@ -98,7 +98,7 @@ export const portfolioData: PortfolioData = {
       {
         company: "Hypestacks",
         title: "Front-End Web Developer",
-        years: "2023-2025",
+        years: "2022 - 2023",
         description: "",
         descriptions: [
           "Worked for a multi-national company based in UK & Singapore to develop foreign exchange dashboard.",
@@ -111,7 +111,7 @@ export const portfolioData: PortfolioData = {
       {
         company: "Telkomsel",
         title: "Front-End Web Developer",
-        years: "2023",
+        years: "Jan - Jun 2023",
         description: "",
         descriptions: [
           "Freelance working to build vendor management system by Telkomsel",
@@ -122,22 +122,9 @@ export const portfolioData: PortfolioData = {
         logo: "company-telkomsel.png",
       },
       {
-        company: "Yummy Corp",
-        title: "Front-End Web Developer",
-        years: "2022-2023",
-        description: "",
-        descriptions: [
-          "Building POS Order Management System for Cloud Kitchen",
-        ],
-        projects: ["Yummykitchen"],
-        website: "https://www.yummycorp.com/",
-        skills: ["React.js", "Hooks"],
-        logo: "company-yummycorp.jpeg",
-      },
-      {
         company: "Aplikasi Super",
         title: "Front-End Web Developer",
-        years: "2021-2023",
+        years: "2021 - 2023",
         description: "",
         descriptions: [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
@@ -148,9 +135,44 @@ export const portfolioData: PortfolioData = {
         logo: "company-super.jpg",
       },
       {
+        company: "Yummy Corp",
+        title: "Front-End Web Developer",
+        years: "Jul - Dec 2022",
+        description: "",
+        descriptions: [
+          "Building POS Order Management System for Cloud Kitchen",
+        ],
+        projects: ["Yummykitchen"],
+        website: "https://www.yummycorp.com/",
+        skills: ["React.js", "Hooks"],
+        logo: "company-yummycorp.jpeg",
+      },
+      {
+        company: "Indolima",
+        title: "Front-End Web Developer",
+        years: "Jan - Jun 2022",
+        description: "",
+        descriptions: ["Develop back-office for warehouse and logistic."],
+        projects: ["Igooana"],
+        website: "https://superapp.id/",
+        skills: ["React.js", "Firebase"],
+        logo: "",
+      },
+      {
+        company: "Hukum Online",
+        title: "Front-End Web Developer",
+        years: "Jul - Dec 2021",
+
+        description: "",
+        descriptions: ["Develop platform for Law Institution."],
+        website: "http://www.tristancorp.com/",
+        skills: ["Vue"],
+        logo: "",
+      },
+      {
         company: "Tristan Artha Media",
         title: "Front-End Web Developer",
-        years: "2020-2021",
+        years: "Jan - Jun 2021",
 
         description: "",
         descriptions: [
@@ -163,7 +185,7 @@ export const portfolioData: PortfolioData = {
       {
         company: "Adactive Asia",
         title: "Front-End Developer",
-        years: "2020",
+        years: "Jan - Dec 2020",
         description: "Worked fully remote on a Singapore-based company.",
         descriptions: [
           "Worked for a Singapore-based company to develop OmniChannel wayfinding apps for touch-screen display, installed in Singapore buildings.",
@@ -190,7 +212,7 @@ export const portfolioData: PortfolioData = {
       {
         company: "Yamisok Platform",
         title: "Front-End Web Developer",
-        years: "2018-2020",
+        years: "2018 - 2020",
         description: "",
         descriptions: [
           "Maintain and revamp web platform for esports tournaments.",
