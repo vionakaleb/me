@@ -9,7 +9,7 @@ export const portfolioData: PortfolioData = {
     bg: "profile-bg.JPG",
     resume: "viona-kaleb-resume.pdf",
     bios: [
-      "Hello, I have been a Software Engineer since 2018. I mostly do Front-End web development, simple Back-End and AI projects. With over six years of experience in software engineering, specializing in frontend development, I am eager to bring my skills and passion for web technologies to your team.",
+      "Hi, I'm Viona. I've been writing code for seven years. Mostly on the frontend, though I'm comfortable across the backend stack too. I'm also doing my Master's in Computer Science on the side. Shipping features is fun, but I like knowing why things work. And which is why I continuously eager to learn.",
     ],
     bios2: [
       "- Developing features from UI/UX designs",
@@ -18,23 +18,23 @@ export const portfolioData: PortfolioData = {
     ],
     bios3: [
       "Skills in Software Development: ",
-      "- FE: React.js, Typescript, Next.js, Vue.js, Angular.js. ",
-      "- BE: Few experience in .NET, Express.js, PHP & GraphQL.",
-      "- Data Analysis: Few experience in Python & Power BI.",
-      "- Redux, Hooks, RTK Query, Unstated Next, Vuex. ",
-      "- Axios, GraphQL, Firebase. ",
-      "- Tailwind, SCSS/SASS, LESS. ",
-      "- Material UI, Ant Design, Bootstrap, Nuxt, Foundation. ",
-      "- Jest, React Testing Library.",
-      "- Git, Postman, Jira, Trello.",
+      "- Frontend: Typescript, React, Next, Angular, Vue. ",
+      "- Styling: Tailwind, Bootstrap, Material, Ant Design, Nuxt, Foundation, CSS3, SCSS. ",
+      "- State Management: Redux, Hooks, Zustand, RTK Query, Unstated Next, RxJs, Vuex. ",
+      "- Form Validation: Formik, TanStack, React Hook Form, Yup, or Zod.",
+      "- Deployment: AWS, Firebase, GitHub Actions, GitHub Pages, GitLab CI, Netlify, Vercel.",
+      "- Testing: Jest, React Testing Library.",
+      "- Backend: Few experience in Express, PHP, GraphQL, .NET, AWS (Lambda, DynamoDB), Firebase, Supabase.",
+      "- Data & ML: Few experience in Python & Power BI.",
+      "- Tools: Git, Postman, Jira, Trello.",
     ],
     contactmessage: "vionakaleb@gmail.com",
     email: "vionakaleb@gmail.com",
     phone: "",
     address: {
       street: "",
-      city: "Tangerang Regency",
-      state: "Banten",
+      city: "Jakarta",
+      state: "",
       zip: "",
       country: "Indonesia",
       gmaps: "",
@@ -68,14 +68,14 @@ export const portfolioData: PortfolioData = {
       {
         school: "President University",
         degree: "MSIT",
-        graduated: "2026",
-        description: "Studying Postgraduate Master of Science in IT.",
+        graduated: "2022",
+        description: "Studying Master of Computer Science in IT.",
         logo: "campus.png",
       },
       {
         school: "President University",
         degree: "B.Sc.IT",
-        graduated: "2018",
+        graduated: "2014",
         description: "Graduated as Bachelor of Computer Science in IT.",
         logo: "campus.png",
       },
@@ -87,8 +87,8 @@ export const portfolioData: PortfolioData = {
         years: "Nov 2023 - Now",
         description: "",
         descriptions: [
-          "Smart Branch by Mandiri: The platform is made to automate and digitalize bank branch operations",
-          "KOPRA by Mandiri: Bank Mandiri's Comprehensive Wholesale Financial Solutions for business",
+          "Smart Branch by Mandiri: Building platform for the largest public State-Owned Enterprise bank in Indonesia. Accelerating bank branch operations, reducing errors and fraud by 85%. The platform is made to automate and digitalize bank branch operations.",
+          "KOPRA by Mandiri: Developing features for Indonesia's leading wholesale banking platform to manage international trade and transactions.",
         ],
         projects: ["Smart Branch", "KOPRA"],
         website: "https://www.bankmandiri.co.id/smart-branch",
@@ -101,7 +101,7 @@ export const portfolioData: PortfolioData = {
         years: "2022 - 2023",
         description: "",
         descriptions: [
-          "Worked for a multi-national company based in UK & Singapore to develop foreign exchange dashboard.",
+          "Initiating a real-time trading analytics platform to be used by over 1.2 million trading accounts and 65+ prop firm clients globally, for a company based in UK.",
         ],
         projects: ["YourPropFirm"],
         website: "https://yourpropfirm.com/",
@@ -114,7 +114,7 @@ export const portfolioData: PortfolioData = {
         years: "Jan - Jun 2023",
         description: "",
         descriptions: [
-          "Freelance working to build vendor management system by Telkomsel",
+          "Freelance working to build vendor management system by Telkomsel.",
         ],
         projects: ["Verona by Telkomsel"],
         website: "https://verona.telkomsel.com/",
@@ -127,7 +127,7 @@ export const portfolioData: PortfolioData = {
         years: "2021 - 2023",
         description: "",
         descriptions: [
-          "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
+          "Digitizing Indonesia’s social commerce and hyperlocal supply chain platform, increasing test-coverage by over 90% on each features.",
         ],
         projects: ["Internal dashboard", "Superagent"],
         website: "https://superapp.id/",
@@ -140,7 +140,7 @@ export const portfolioData: PortfolioData = {
         years: "Jul - Dec 2022",
         description: "",
         descriptions: [
-          "Building POS Order Management System for Cloud Kitchen",
+          "Connecting cloud kitchens to POS Order Management System to help ride-hailing drivers taking their food orders.",
         ],
         projects: ["Yummykitchen"],
         website: "https://www.yummycorp.com/",
@@ -152,11 +152,11 @@ export const portfolioData: PortfolioData = {
         title: "Front-End Web Developer",
         years: "Jan - Jun 2022",
         description: "",
-        descriptions: ["Develop back-office for warehouse and logistic."],
+        descriptions: ["Developing back-office for warehouse and logistic."],
         projects: ["Igooana"],
         website: "https://superapp.id/",
         skills: ["React.js", "Firebase"],
-        logo: "",
+        logo: "company-indolima.jpeg",
       },
       {
         company: "Hukum Online",
@@ -164,10 +164,10 @@ export const portfolioData: PortfolioData = {
         years: "Jul - Dec 2021",
 
         description: "",
-        descriptions: ["Develop platform for Law Institution."],
+        descriptions: ["Developing platform for Law Institution."],
         website: "http://www.tristancorp.com/",
         skills: ["Vue"],
-        logo: "",
+        logo: "company-hukumonline.jpg",
       },
       {
         company: "Tristan Artha Media",
@@ -176,7 +176,7 @@ export const portfolioData: PortfolioData = {
 
         description: "",
         descriptions: [
-          "Develop back-office & tournament platform in web and mobile responsive.",
+          "Developing back-office & tournament platform in web and mobile responsive.",
         ],
         website: "http://www.tristancorp.com/",
         skills: ["Next.js", "React.js", "Angular.js", "Apollo GraphQL"],
@@ -186,9 +186,9 @@ export const portfolioData: PortfolioData = {
         company: "Adactive Asia",
         title: "Front-End Developer",
         years: "Jan - Dec 2020",
-        description: "Worked fully remote on a Singapore-based company.",
+        description: "",
         descriptions: [
-          "Worked for a Singapore-based company to develop OmniChannel wayfinding apps for touch-screen display, installed in Singapore buildings.",
+          "Worked for a Singapore-based company to build OmniChannel 3D wayfinding system installed in Singapore buildings.",
         ],
         projects: [
           "Singapore Discovery Centre",
@@ -215,9 +215,7 @@ export const portfolioData: PortfolioData = {
         years: "2018 - 2020",
         description: "",
         descriptions: [
-          "Maintain and revamp web platform for esports tournaments.",
-          "Develop single-page apps for project microsites.",
-          "Integrate API from BE. Translate designs from UI/UX.",
+          "Building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers.",
         ],
         projects: [
           "Yamisok Platform",
