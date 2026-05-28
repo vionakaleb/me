@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
   );
 
   const heroStyle: React.CSSProperties = {
-    backgroundImage: `linear-gradient(rgba(17, 24, 39, 0), rgba(17, 24, 39, 1)), url('/me/images/${bg}')`,
+    backgroundImage: `linear-gradient(rgba(17, 24, 39, 0), rgba(17, 24, 39, 1)), url('/images/${bg}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
             LinkedIn
           </a>
           <a
-            href={`/me/${resume}`}
+            href={`/${resume}`}
             download
             className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >

@@ -28,7 +28,7 @@ export const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-1 flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-xl border border-gray-700">
             <img
-              src={`/me/images/` + image}
+              src={`/images/` + image}
               alt={`A portrait of ${fullname}`}
               className="rounded-full w-48 h-48 object-cover shadow-2xl border-4 border-indigo-600/50 mb-6"
               onError={(e) => {
