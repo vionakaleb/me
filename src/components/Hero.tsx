@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
             LinkedIn
           </a>
           <ScrollLink
-            to="#portfolio"
+            to="#projects"
             className="w-full md:w-auto bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Projects
