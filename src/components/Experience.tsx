@@ -46,7 +46,7 @@ export const Experience: React.FC = () => {
         >
           <div className="flex gap-4 items-center">
             <img
-              src={`/me/images/${item.logo}`}
+              src={`/images/${item.logo}`}
               alt={item.description}
               className="h-16 w-16 rounded-md"
             />

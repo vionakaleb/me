@@ -46,7 +46,7 @@ export const Portfolio: React.FC = () => {
               className="bg-gray-900 rounded-xl overflow-hidden shadow-2xl group border border-gray-700 hover:border-indigo-500 transition-all duration-300"
             >
               <img
-                src={`/me/images/portfolio/${project.image}`}
+                src={`/images/portfolio/${project.image}`}
                 alt={project.title}
                 className="w-full h-48 object-cover transition duration-300 group-hover:scale-105"
                 onClick={() => openModal(index)}
@@ -161,7 +161,7 @@ export const Portfolio: React.FC = () => {
               >
                 <div className="h-full w-full flex items-center justify-center relative">
                   <img
-                    src={`/me/images/portfolio/${project.image}`}
+                    src={`/images/portfolio/${project.image}`}
                     alt={project.title}
                     className="max-h-[80vh] max-w-full object-contain shadow-2xl rounded-lg"
                   />
