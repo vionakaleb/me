@@ -3,7 +3,7 @@ import ScrollLink from "../utils/ScrollLink";
 
 export const Hero: React.FC = () => {
   const { name, description, bg, resume } = usePortfolioStore(
-    (state) => state.data.main
+    (state) => state.data.main,
   );
 
   const heroStyle: React.CSSProperties = {
@@ -30,8 +30,14 @@ export const Hero: React.FC = () => {
             to="#portfolio"
             className="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/40"
           >
-            View My Work
+            Projects
           </ScrollLink>
+          <a
+            href={`https://www.linkedin.com/in/vionakaleb/`}
+            className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            LinkedIn
+          </a>
           <a
             href={`/me/${resume}`}
             download
