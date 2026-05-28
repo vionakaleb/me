@@ -300,6 +300,14 @@ export const portfolioData: PortfolioData = {
     projectUrl: "https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     projects: [
       {
+        title: "ATS Resume Generator",
+        description: "ATS Resume Generator, Analyzer, integrated with AI",
+        image: "ats-generator.png",
+        url: "https://ats-generator.netlify.app/",
+        github: "",
+        technology: ["React, Tailwind"],
+      },
+      {
         title: "Smart Branch by Mandiri",
         description:
           "Deployed in Bank Mandiri branches all over Indonesia, the platform is made to automate and digitalize bank branch operations.",

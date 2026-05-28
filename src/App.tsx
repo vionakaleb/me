@@ -2,6 +2,7 @@ import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Footer } from "./components/Footer";
+import { GithubRepos } from "./components/GithubRepos";
 import { Hero } from "./components/Hero";
 import { Navigation } from "./components/Navigation";
 import { Portfolio } from "./components/Portfolio";
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Skills />
         <Experience />
         <Portfolio />
+        <GithubRepos />
         <Contact />
       </main>
       <Footer />
