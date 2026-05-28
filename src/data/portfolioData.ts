@@ -9,7 +9,7 @@ export const portfolioData: PortfolioData = {
     bg: "profile-bg.JPG",
     resume: "viona-kaleb-resume.pdf",
     bios: [
-      "Hi, I'm Viona. I've been writing code for seven years. Mostly on the frontend, though I'm comfortable across the backend stack too. I'm also doing my Master's in Computer Science on the side. Shipping features is fun, but I like knowing why things work. And which is why I continuously eager to learn.",
+      "Hi, I'm Viona. I've been writing code for seven years. Mostly on the frontend, though I'm comfortable across the backend stack too. I also finished my Master's in Computer Science with a research in Computer Vision. Shipping features is fun, but I like knowing why things work. And which is why I continuously eager to learn.",
     ],
     bios2: [
       "- Developing features from UI/UX designs",
