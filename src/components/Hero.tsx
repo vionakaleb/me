@@ -26,18 +26,19 @@ export const Hero: React.FC = () => {
           {description} Building Modern & Accessible Web Apps.
         </p>
         <div className="flex justify-center gap-4">
-          <ScrollLink
-            to="#portfolio"
-            className="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/40"
-          >
-            Projects
-          </ScrollLink>
           <a
-            href={`https://www.linkedin.com/in/vionakaleb/`}
-            className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            href={`https://www.linkedin.com/in/vionakaleb`}
+            target="_blank"
+            className="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/40"
           >
             LinkedIn
           </a>
+          <ScrollLink
+            to="#portfolio"
+            className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Projects
+          </ScrollLink>
           <a
             href={`/${resume}`}
             download
