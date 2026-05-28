@@ -25,24 +25,24 @@ export const Hero: React.FC = () => {
         <p className="text-lg md:text-xl text-gray-300 mb-8 animate-fadeInUp delay-200">
           {description} Building Modern & Accessible Web Apps.
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <a
             href={`https://www.linkedin.com/in/vionakaleb`}
             target="_blank"
-            className="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/40"
+            className="w-full md:w-auto bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/40"
           >
             LinkedIn
           </a>
           <ScrollLink
             to="#portfolio"
-            className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="w-full md:w-auto bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Projects
           </ScrollLink>
           <a
             href={`/${resume}`}
             download
-            className="bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="w-full md:w-auto bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Download CV
           </a>

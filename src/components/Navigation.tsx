@@ -11,8 +11,8 @@ interface NavItem {
 const navItems: NavItem[] = [
   { id: "about", name: "About" },
   { id: "skills", name: "Skills" },
-  { id: "portfolio", name: "Portfolio" },
   { id: "experience", name: "Experience" },
+  { id: "portfolio", name: "Portfolio" },
   { id: "contact", name: "Contact" },
 ];
 
