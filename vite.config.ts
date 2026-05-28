@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "https://vionakaleb.github.io/me/",
+  base: "/",
 });
