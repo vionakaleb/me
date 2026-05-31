@@ -22,6 +22,13 @@ The application dynamically renders content, including career history, technical
 🖼️ Interactive Gallery: Project images are displayed in a grid and open into a responsive fullscreen viewer using Swiper.js.
 
 🧭 Timeline View: Dynamic rendering of Education and Work Experience in a clean, alternating timeline layout.
+
+📁 Import from LinkedIn:
+Put Profile.pdf file in  folder .src/data/input
+
+Run this script
+npm run import:profile
+
 ```
 
 ## 🛠 Tech Stack
