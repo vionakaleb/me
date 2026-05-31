@@ -1,0 +1,280 @@
+{
+  "main": {
+    "fullname": "Viona Zatil Aqmar Kaleb",
+    "description": "Software Engineer | MSIT | Building Scalable Fintech, E-commerce & Interactive 3D Solutions | React Angular Vue Typescript Node",
+    "bios": [
+      "Hi, I'm Viona. I've been writing code for 7 years. Mostly on the Frontend with React, Next, Angular, Vue. Though I'm comfortable across the backend stack too with Express, GraphQL, PHP, and Firebase. I also finished my Master's in Computer Science with a research in Machine Learning. Because while shipping features is fun, I like knowing why things work. And which is why I continuously eager to learn.What I love about this job is how different every project ends up being. A few years back I was building a 3D wayfinding system for some of Singapore's bigger landmarks: the Supreme Court, Republic Plaza, Wood Square, and the Singapore Discovery Centre. After that came real-time trading analytics for a UK fintech, running across 1.2 million trading accounts and over 65 prop firm clients globally. And these days I'm with the largest state-owned bank in Indonesia, helping cut branch-level errors and fraud by 85%.Along the way I’ve helped Indonesia by digitizing social commerce and hyperlocal supply chain platform with over 90% test coverage on every feature, connecting cloud kitchens to POS system to ease ride-hailing drivers taking their food orders, and building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers.I pick things up fast. New framework, unfamiliar domain, a legacy codebase nobody wants to open, I'll try to figure out within days.When I'm not coding, I go trail-running or reading books.Open to interesting conversations. If you're building something good, say hi.Website: https://viona-kaleb.netlify.app"
+    ],
+    "email": "vionakaleb@gmail.com",
+    "phone": "+6282311888164",
+    "address": {
+      "city": "West Jakarta",
+      "country": "Indonesia"
+    },
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vionakaleb",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "Website",
+        "url": "https://vionakaleb.github.io/me",
+        "className": "fa fa-globe"
+      },
+      {
+        "name": "Email",
+        "url": "vionakaleb@gmail.com",
+        "className": "fa fa-envelope"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "President University",
+        "degree": "Master of Science in IT",
+        "graduated": "2026",
+        "description": "Information Technology",
+        "logo": ""
+      },
+      {
+        "school": "President University",
+        "degree": "Bachelor of Science in IT",
+        "graduated": "2021",
+        "description": "Information Technology",
+        "logo": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "PT Bank Mandiri (Persero) Tbk.",
+        "title": "Frontend Engineer",
+        "years": "November 2023 - Present",
+        "location": "Jakarta, Indonesia",
+        "description": "",
+        "descriptions": [
+          "IT Digital Channel Delivery Group (DDL):",
+          "Smart Branch by Mandiri Building platform for the largest public State-Owned Enterprise bank in Indonesia. Accelerating bank branch operations, reducing errors and fraud by 85%. The platform is made to automate and digitalize bank branch operations.",
+          "KOPRA by Mandiri Developing features for Indonesia's leading wholesale banking platform to manage international trade and transactions.",
+          "Cultural Network Team (CNT) | Energeia Division Part of cultural team for the IT Digital Channel Delivery (DDL) Group to design programs that improve workplace morale, foster employee engagement and strengthen Bank Mandiri's organizational values."
+        ],
+        "website": "https://www.bankmandiri.co.id/smart-branch",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "hypestacks",
+        "title": "Founding Frontend Developer",
+        "years": "November 2022 - November 2023",
+        "location": "Singapore",
+        "description": "",
+        "descriptions": [
+          "Working for a company based in UK, to initiate a real-time trading analytics platform to be used by over 1.2 million trading accounts and 65+ prop firm clients globally.",
+          "YourPropFirm",
+          "As Founding Front End Developer, using React.js & Typescript: As the first front-end, I Initiated a dashboard for firm prop trading. Slicing designs & develop features.",
+          "As junior .NET Developer: Helping to develop logic, DynamoDB queries & Lambda functions.",
+          "As junior Data Analyst: Transforming, querying & building trading data visualizations using Microsoft Power BI."
+        ],
+        "website": "https://hypestacks.com/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Telkomsel",
+        "title": "Frontend Developer",
+        "years": "January 2023 - June 2023",
+        "location": "",
+        "description": "",
+        "descriptions": [
+          "Assigned under Telkomsel Verona. An app to manage Vendor Profile Management."
+        ],
+        "website": "https://www.telkomsel.com/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "SuperApp (YC W18)",
+        "title": "Frontend Web Developer",
+        "years": "2021 - 2023",
+        "location": "",
+        "description": "",
+        "descriptions": [
+          "Digitizing Indonesia’s social commerce and hyperlocal supply chain platform, increasing test-coverage by over 90% on each features. Using ReactJS, Typescript, RTK Query, Redux & Hooks:",
+          "Develop back-office for master data, orders, logistic, supply chain, and ecommerce web.",
+          "Create client-side features, integrate API from BE. Translate designs from UIUX.",
+          "Create unit test with Jest & React Testing Library."
+        ],
+        "website": "https://superapp.id/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Yummy Corp",
+        "title": "Frontend Web Developer",
+        "years": "July 2022 - December 2022",
+        "location": "Kota Tangerang Selatan",
+        "description": "",
+        "descriptions": [
+          "Connecting cloud kitchens to POS Order Management System to help ridehailing drivers taking their food orders, and help users to browse menus and place orders. Orders are instantly printed via the restaurant's POS system for processing. This system enhanced order accuracy, minimized wait times, and improved kitchen workflow."
+        ],
+        "website": "https://www.yummycorp.com/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "PT. Indolima Perkasa",
+        "title": "Founding Frontend Web Developer",
+        "years": "January 2022 - June 2022",
+        "location": "Jakarta, Indonesia",
+        "description": "",
+        "descriptions": [
+          "Under project iGooana. As the first Front End Developer, I initiated a dashboard for handling B2B Sales, Pipeline, Warehouse and Logistic Fleets."
+        ],
+        "website": "https://www2.indonesia5.com/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Hukumonline.com",
+        "title": "Frontend Web Developer",
+        "years": "July 2021 - December 2021",
+        "location": "Jakarta, Indonesia",
+        "description": "",
+        "descriptions": [
+          "Short term project. Assigned to bugfix some features in HukumOnline."
+        ],
+        "website": "https://www.hukumonline.com/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Tristan Artha Media",
+        "title": "Frontend Web Developer",
+        "years": "January 2021 - June 2021",
+        "location": "",
+        "description": "",
+        "descriptions": [
+          "Develop back-office & tournament platform in web and mobile responsive. Create features, integrate API from BE. Translate designs from UI/UX."
+        ],
+        "website": "https://www.linkedin.com/in/tristan-artha-media-5a6286184",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Adactive Asia",
+        "title": "Frontend Developer",
+        "years": "January 2020 - December 2020",
+        "location": "Singapore",
+        "description": "",
+        "descriptions": [
+          "Worked for a Singapore-based company to build OmniChannel 3D wayfinding apps installed in Singapore prominent buildings, such as Singapore Discovery Centre, Singapore Supreme Courts, Family Justice Courts, and Republic Plaza. These apps helped visitors navigate within the building using an interactive map. Using ReactJS, Hooks, Canvas & Firebase.",
+          "Create wayfinding apps for touchscreen display, installed in buildings.",
+          "Create features & integrate from CMS. Translate designs from UI/UX.",
+          "Develop apps for LG Smart TVs. Developed projects:",
+          "Singapore Discovery Centre",
+          "Singapore Supreme Courts",
+          "Singapore State Courts",
+          "Family Justice Courts",
+          "Woodsquare",
+          "Republic Plaza"
+        ],
+        "website": "https://www.adactive.asia/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Yamisok Platform Indonesia",
+        "title": "Frontend Web Developer",
+        "years": "January 2018 - January 2020",
+        "location": "Kota Tangerang Selatan",
+        "description": "",
+        "descriptions": [
+          "Building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers. Using VueJS, Vuex, Bootstrap & Nuxt:",
+          "Maintain and revamp websites.",
+          "Develop single-page apps for project microsites.",
+          "Integrate API from BE. Translate designs from UI/UX. Developed projects:",
+          "Yamisok Platform",
+          "IESPL by Tokopedia",
+          "IHSL by JD.ID",
+          "Firstwarrior by Firstmedia"
+        ],
+        "website": "https://yamisok.com",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "PT. Kawasan Industri Jababeka, Tbk",
+        "title": "IT Technician Intern",
+        "years": "January 2018 - April 2018",
+        "location": "Provinsi Jawa Barat, Indonesia",
+        "description": "",
+        "descriptions": [
+          "Working in industrial area developer company. IT/Network Support intern:",
+          "Troubleshooting computers.",
+          "Solve ticketing requests from employees.",
+          "Maintain some company softwares."
+        ],
+        "website": "https://www.jababeka.com/id/home/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Brand Marketing Institute Consulting Group (BMICG)",
+        "title": "Fullstack Web Developer",
+        "years": "May 2017 - August 2017",
+        "location": "Jakarta Selatan, Jakarta, Indonesia",
+        "description": "",
+        "descriptions": [
+          "Using PHP, CodeIgniter & MySQL. Maintain and revamp project websites.",
+          "Bank Muamalat"
+        ],
+        "website": "https://www.linkedin.com/company/brand-marketing-institute-consulting-group-bmicg-/about/",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Django",
+        "level": ""
+      },
+      {
+        "name": "Computer Vision",
+        "level": ""
+      },
+      {
+        "name": "Java",
+        "level": ""
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": []
+  },
+  "certifications": [
+    "Microsoft Developer Conference at Ritz Carlton Hotel, Jakarta",
+    "Python Conference Indonesia 2025",
+    "Duolingo English Test of 125 CEFR B2",
+    "TOEFL ITP Score of 553 (Advanced)",
+    "English Course on Sr. High Level 8 (Grade A)"
+  ],
+  "honorsAwards": [
+    "Bachelor Degree Scholarship Award",
+    "The 2nd National Science Camp (English Olympiad)",
+    "2nd place in BCA Techvation (Tech Innovation)",
+    "Web Development Competition"
+  ]
+}
