@@ -5,6 +5,7 @@ import { SectionTitle } from "./SectionTitle";
 
 export const Contact: React.FC = () => {
   const { email } = usePortfolioStore((state) => state.data.main);
+  const { resume } = usePortfolioStore((state) => state.data.main);
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
   >("idle");
@@ -20,7 +21,7 @@ export const Contact: React.FC = () => {
     const subject = emailSubject;
     const body = emailMessage;
     window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(
-      subject
+      subject,
     )}&body=${encodeURIComponent(body)}`;
 
     setTimeout(() => {
@@ -56,9 +57,16 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-24 mb-20">
+      <div className="flex flex-col max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle title="Get In Touch" id="contact-title" />
+        <a
+          href={`/${resume}`}
+          download
+          className="mb-4 self-center w-full md:w-auto bg-gray-700 text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+        >
+          Download CV
+        </a>
         <p className="text-center text-lg mb-8 text-gray-300">
           I'm currently open to new opportunities. <br />
           Feel free to reach me out!

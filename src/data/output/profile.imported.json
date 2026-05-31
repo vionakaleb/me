@@ -3,7 +3,7 @@
     "fullname": "Viona Zatil Aqmar Kaleb",
     "description": "Software Engineer | MSIT | Building Scalable Fintech, E-commerce & Interactive 3D Solutions | React Angular Vue Typescript Node",
     "bios": [
-      "Hi, I'm Viona. I've been writing code for 7 years. Mostly on the Frontend with React, Next, Angular, Vue. Though I'm comfortable across the backend stack too with Express, GraphQL, PHP, and Firebase. I also finished my Master's in Computer Science with a research in Machine Learning. Because while shipping features is fun, I like knowing why things work. And which is why I continuously eager to learn."
+      "Hi, I'm Viona. I've been writing code for seven years. Mostly on the frontend with React, Next, Angular, Vue. I'm also comfortable across the backend stack with Express, GraphQL, PHP, and Firebase. I have a Master's in Computer Science focusing on Machine Learning. Because while shipping features is fun, I've always wanted to understand why things work. And that curiosity is what keeps me eager to learn."
     ],
     "email": "vionakaleb@gmail.com",
     "phone": "+6282311888164",
@@ -54,12 +54,10 @@
         "location": "Jakarta, Indonesia",
         "description": "",
         "descriptions": [
-          "IT Digital Channel Delivery Group (DDL):",
-          "Smart Branch by Mandiri Building platform for the largest public State-Owned Enterprise bank in Indonesia. Accelerating bank branch operations, reducing errors and fraud by 85%. The platform is made to automate and digitalize bank branch operations.",
-          "KOPRA by Mandiri Developing features for Indonesia's leading wholesale banking platform to manage international trade and transactions.",
-          "Cultural Network Team (CNT) | Energeia Division Part of cultural team for the IT Digital Channel Delivery (DDL) Group to design programs that improve workplace morale, foster employee engagement and strengthen Bank Mandiri's organizational values."
+          "Smart Branch by Mandiri Building platform for the largest public State-Owned Enterprise bank in Indonesia. Digitalizing bank branch operations nationally, accelerating and reducing fraud by 85%.",
+          "KOPRA by Mandiri Developing features for Indonesia's leading wholesale banking platform. To name as the Best Integrated Trade Finance Digital Platform and the Best Wholesale Platform for Transaction Banking, recording an annual transaction volume exceeding IDR 10,000 trillion."
         ],
-        "website": "https://www.bankmandiri.co.id/smart-branch",
+        "website": "https://www.bankmandiri.co.id/",
         "skills": [],
         "projects": [],
         "logo": ""
@@ -68,14 +66,10 @@
         "company": "hypestacks",
         "title": "Founding Frontend Developer",
         "years": "November 2022 - November 2023",
-        "location": "Singapore",
+        "location": "",
         "description": "",
         "descriptions": [
-          "Working for a company based in UK, to initiate a real-time trading analytics platform to be used by over 1.2 million trading accounts and 65+ prop firm clients globally.",
-          "YourPropFirm",
-          "As Founding Front End Developer, using React.js & Typescript: As the first front-end, I Initiated a dashboard for firm prop trading. Slicing designs & develop features.",
-          "As junior .NET Developer: Helping to develop logic, DynamoDB queries & Lambda functions.",
-          "As junior Data Analyst: Transforming, querying & building trading data visualizations using Microsoft Power BI."
+          "Founding the frontend stack of a fast-moving UK fintech product from its earliest stages. Taking challenge as cross-functional contributor (FE, BE, Data Analyst) on a real-time trading analytics platform, serving over 1.2 million trading accounts and 65+ prop firm clients globally."
         ],
         "website": "https://hypestacks.com/",
         "skills": [],
@@ -89,9 +83,9 @@
         "location": "",
         "description": "",
         "descriptions": [
-          "Assigned under Telkomsel Verona. An app to manage Vendor Profile Management."
+          "Helping Tekomsel to develop a collaborative website that allows vendors to register or update data independently."
         ],
-        "website": "https://www.telkomsel.com/",
+        "website": "https://verona.telkomsel.com/",
         "skills": [],
         "projects": [],
         "logo": ""
@@ -103,10 +97,7 @@
         "location": "",
         "description": "",
         "descriptions": [
-          "Digitizing Indonesia’s social commerce and hyperlocal supply chain platform, increasing test-coverage by over 90% on each features. Using ReactJS, Typescript, RTK Query, Redux & Hooks:",
-          "Develop back-office for master data, orders, logistic, supply chain, and ecommerce web.",
-          "Create client-side features, integrate API from BE. Translate designs from UIUX.",
-          "Create unit test with Jest & React Testing Library."
+          "Assisting social commerce and hyper-local supply chain platform to digitize Indonesia's retail ecosystem. Owned the full front-end delivery cycle across multiple product lines, while pushing test coverage above 90% per feature."
         ],
         "website": "https://superapp.id/",
         "skills": [],
@@ -120,7 +111,7 @@
         "location": "Kota Tangerang Selatan",
         "description": "",
         "descriptions": [
-          "Connecting cloud kitchens to POS Order Management System to help ridehailing drivers taking their food orders, and help users to browse menus and place orders. Orders are instantly printed via the restaurant's POS system for processing. This system enhanced order accuracy, minimized wait times, and improved kitchen workflow."
+          "Aiding ride-hailing drivers, end users, and kitchen staff to bridge cloud kitchens with point-of-sale systems, creating a seamless order flow. Building the interfaces that let users place orders which are instantly printed at the restaurant's POS for preparation. Resulting in faster turnaround, fewer order mistakes, and a smoother kitchen operation from screen to plate."
         ],
         "website": "https://www.yummycorp.com/",
         "skills": [],
@@ -134,9 +125,9 @@
         "location": "Jakarta, Indonesia",
         "description": "",
         "descriptions": [
-          "Under project iGooana. As the first Front End Developer, I initiated a dashboard for handling B2B Sales, Pipeline, Warehouse and Logistic Fleets."
+          "As a single, founding front-end developer, I am responsible for building the company's core dashboard from the ground up. Shaping the architecture decisions and delivered a working product that operations teams relied on daily; to handle B2B sales operations, pipeline management, warehouse coordination, and logistics fleet tracking, all under one roof."
         ],
-        "website": "https://www2.indonesia5.com/",
+        "website": "https://igooana.id/",
         "skills": [],
         "projects": [],
         "logo": ""
@@ -148,7 +139,7 @@
         "location": "Jakarta, Indonesia",
         "description": "",
         "descriptions": [
-          "Short term project. Assigned to bugfix some features in HukumOnline."
+          "Taking a short project to help building Indonesia's reg-tech platform and legal news provider that democratizes access to the law."
         ],
         "website": "https://www.hukumonline.com/",
         "skills": [],
@@ -162,7 +153,7 @@
         "location": "",
         "description": "",
         "descriptions": [
-          "Develop back-office & tournament platform in web and mobile responsive. Create features, integrate API from BE. Translate designs from UI/UX."
+          "Developing a responsive sport tournament platform, delivering a seamless experience across mobile and desktop for spectators."
         ],
         "website": "https://www.linkedin.com/in/tristan-artha-media-5a6286184",
         "skills": [],
@@ -176,16 +167,7 @@
         "location": "Singapore",
         "description": "",
         "descriptions": [
-          "Worked for a Singapore-based company to build OmniChannel 3D wayfinding apps installed in Singapore prominent buildings, such as Singapore Discovery Centre, Singapore Supreme Courts, Family Justice Courts, and Republic Plaza. These apps helped visitors navigate within the building using an interactive map. Using ReactJS, Hooks, Canvas & Firebase.",
-          "Create wayfinding apps for touchscreen display, installed in buildings.",
-          "Create features & integrate from CMS. Translate designs from UI/UX.",
-          "Develop apps for LG Smart TVs. Developed projects:",
-          "Singapore Discovery Centre",
-          "Singapore Supreme Courts",
-          "Singapore State Courts",
-          "Family Justice Courts",
-          "Woodsquare",
-          "Republic Plaza"
+          "Shipped 3D wayfinding solutions installed across major Singapore landmarks, including Singapore Discovery Centre, Supreme Courts, Woodsquare, and Republic Plaza. Helping thousands of visitors find their way inside complex facilities in real-time. Reduced the load on front desk staff and improved the visitor experience in high-traffic government and commercial buildings."
         ],
         "website": "https://www.adactive.asia/",
         "skills": [],
@@ -199,14 +181,7 @@
         "location": "Kota Tangerang Selatan",
         "description": "",
         "descriptions": [
-          "Building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers. Using VueJS, Vuex, Bootstrap & Nuxt:",
-          "Maintain and revamp websites.",
-          "Develop single-page apps for project microsites.",
-          "Integrate API from BE. Translate designs from UI/UX. Developed projects:",
-          "Yamisok Platform",
-          "IESPL by Tokopedia",
-          "IHSL by JD.ID",
-          "Firstwarrior by Firstmedia"
+          "Building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers. Contributed to shaping Indonesia's competitive gaming scene at a time when organized e-sports infrastructure was still new. The platform gave grassroots players a real path to competitive play, and gave sponsors like Tokopedia, JD.ID, and Firstmedia a direct channel into the gaming community."
         ],
         "website": "https://yamisok.com",
         "skills": [],
@@ -217,13 +192,10 @@
         "company": "PT. Kawasan Industri Jababeka, Tbk",
         "title": "IT Technician Intern",
         "years": "January 2018 - April 2018",
-        "location": "Provinsi Jawa Barat, Indonesia",
+        "location": "West Java, Indonesia",
         "description": "",
         "descriptions": [
-          "Working in industrial area developer company. IT/Network Support intern:",
-          "Troubleshooting computers.",
-          "Solve ticketing requests from employees.",
-          "Maintain some company softwares."
+          "Starting my career as an IT/Network Support intern at Jababeka, one of Indonesia's largest industrial estate developers. Got hands-on experience keeping the tech running for a company that manages an entire industrial ecosystem"
         ],
         "website": "https://www.jababeka.com/id/home/",
         "skills": [],
@@ -234,11 +206,10 @@
         "company": "Brand Marketing Institute Consulting Group (BMICG)",
         "title": "Fullstack Web Developer",
         "years": "May 2017 - August 2017",
-        "location": "Jakarta Selatan, Jakarta, Indonesia",
+        "location": "South Jakarta",
         "description": "",
         "descriptions": [
-          "Using PHP, CodeIgniter & MySQL. Maintain and revamp project websites.",
-          "Bank Muamalat"
+          "Took aging codebases and improved them, whether that meant cleaning up legacy PHP, restructuring database queries, or refreshing the front-end to match updated brand guidelines. One of the projects was for Bank Muamalat, one of Indonesia's established Islamic banking institutions."
         ],
         "website": "https://www.linkedin.com/company/brand-marketing-institute-consulting-group-bmicg-/about/",
         "skills": [],
@@ -248,15 +219,15 @@
     ],
     "skills": [
       {
-        "name": "Django",
+        "name": "react",
         "level": ""
       },
       {
-        "name": "Computer Vision",
+        "name": "Next.js",
         "level": ""
       },
       {
-        "name": "Java",
+        "name": "Angular",
         "level": ""
       }
     ]
@@ -265,11 +236,11 @@
     "projects": []
   },
   "certifications": [
-    "Microsoft Developer Conference at Ritz Carlton Hotel, Jakarta",
-    "Python Conference Indonesia 2025",
-    "Duolingo English Test of 125 CEFR B2",
-    "TOEFL ITP Score of 553 (Advanced)",
-    "English Course on Sr. High Level 8 (Grade A)"
+    "Microsoft Developer Conference",
+    "Python Conference",
+    "Duolingo English Test",
+    "TOEFL ITP",
+    "English Course on Sr. High"
   ],
   "honorsAwards": [
     "Bachelor Degree Scholarship Award",

@@ -94,7 +94,7 @@ export const GithubRepos: React.FC = () => {
     <section id="github" className="py-24 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-white text-center mb-12">
-          GitHub Repositories
+          GitHub Projects
         </h2>
 
         {status === "loading" && (

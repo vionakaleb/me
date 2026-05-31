@@ -28,7 +28,7 @@ export const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-24 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionTitle title="Core Technologies & Skills" id="skills-title" />
+        <SectionTitle title="Technologies & Skills" id="skills-title" />
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skills.map((skill: SkillItem, index: number) => (
             <div
@@ -41,9 +41,11 @@ export const Skills: React.FC = () => {
                     className: "w-8 h-8",
                   })}
                 </div>
-                <span className="text-xs font-semibold text-white bg-indigo-600 px-3 py-1 rounded-full">
-                  {skill.level}
-                </span>
+                {skill.level && (
+                  <span className="text-xs font-semibold text-white bg-indigo-600 px-3 py-1 rounded-full">
+                    {skill.level}
+                  </span>
+                )}
               </div>
               <span className="font-semibold text-lg text-white">
                 {skill.name}

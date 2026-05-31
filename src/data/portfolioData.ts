@@ -8,9 +8,6 @@ export const portfolioData: PortfolioData = {
     image: "profilepic.jpg",
     bg: "profile-bg.JPG",
     resume: "viona-kaleb-resume.pdf",
-    bios: [
-      "Hi, I'm Viona. I've been writing code for seven years. Mostly on the frontend, though I'm comfortable across the backend stack too. I also finished my Master's in Computer Science with a research in Computer Vision. Shipping features is fun, but I like knowing why things work. And which is why I continuously eager to learn.",
-    ],
     bios2: [
       "- Developing features from UI/UX designs",
       "- Create logically functioning features, integrating APIs",
@@ -76,7 +73,8 @@ export const portfolioData: PortfolioData = {
         school: "President University",
         degree: "BSIT",
         graduated: "2014",
-        description: "Bachelor of Computer Science in IT.",
+        description:
+          "Was awarded a Bachelor's scholarship for being one of the top graduates, funded by the government and the campus.",
         logo: "campus.png",
       },
     ],
@@ -259,15 +257,15 @@ export const portfolioData: PortfolioData = {
         level: "80%",
       },
       {
-        name: "React.js",
+        name: "React",
         level: "80%",
       },
       {
-        name: "Angular.js",
-        level: "70%",
+        name: "Angular",
+        level: "80%",
       },
       {
-        name: "Vue.js",
+        name: "Vue",
         level: "70%",
       },
       {

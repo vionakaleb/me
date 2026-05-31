@@ -1,6 +1,7 @@
 import { About } from "./components/About";
 import { Certifications } from "./components/Certifications";
 import { Contact } from "./components/Contact";
+import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Footer } from "./components/Footer";
 import { GithubRepos } from "./components/GithubRepos";
@@ -24,11 +25,12 @@ const App: React.FC = () => {
       <main className="pt-16">
         <Hero />
         <About />
-        <Skills />
         <Experience />
+        <Education />
         <Certifications />
         <Portfolio />
         <GithubRepos />
+        <Skills />
         <Contact />
       </main>
       <Footer />

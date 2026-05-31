@@ -23,11 +23,11 @@ The application dynamically renders content, including career history, technical
 
 🧭 Timeline View: Dynamic rendering of Education and Work Experience in a clean, alternating timeline layout.
 
-📁 Import from LinkedIn:
-Put Profile.pdf file in  folder .src/data/input
+💻 Integrated with Github API to display your repo.
 
-Run this script
-npm run import:profile
+📁 Import from LinkedIn: Resources -> Save to PDF
+Put Profile.pdf file in folder .src/data/input
+Then run this script -> npm run import:profile
 
 ```
 
