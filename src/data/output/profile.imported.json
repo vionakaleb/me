@@ -3,7 +3,7 @@
     "fullname": "Viona Zatil Aqmar Kaleb",
     "description": "Software Engineer | MSIT | Building Scalable Fintech, E-commerce & Interactive 3D Solutions | React Angular Vue Typescript Node",
     "bios": [
-      "Hi, I'm Viona. I've been writing code for 7 years. Mostly on the Frontend with React, Next, Angular, Vue. Though I'm comfortable across the backend stack too with Express, GraphQL, PHP, and Firebase. I also finished my Master's in Computer Science with a research in Machine Learning. Because while shipping features is fun, I like knowing why things work. And which is why I continuously eager to learn.What I love about this job is how different every project ends up being. A few years back I was building a 3D wayfinding system for some of Singapore's bigger landmarks: the Supreme Court, Republic Plaza, Wood Square, and the Singapore Discovery Centre. After that came real-time trading analytics for a UK fintech, running across 1.2 million trading accounts and over 65 prop firm clients globally. And these days I'm with the largest state-owned bank in Indonesia, helping cut branch-level errors and fraud by 85%.Along the way I’ve helped Indonesia by digitizing social commerce and hyperlocal supply chain platform with over 90% test coverage on every feature, connecting cloud kitchens to POS system to ease ride-hailing drivers taking their food orders, and building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers.I pick things up fast. New framework, unfamiliar domain, a legacy codebase nobody wants to open, I'll try to figure out within days.When I'm not coding, I go trail-running or reading books.Open to interesting conversations. If you're building something good, say hi.Website: https://viona-kaleb.netlify.app"
+      "Hi, I'm Viona. I've been writing code for 7 years. Mostly on the Frontend with React, Next, Angular, Vue. Though I'm comfortable across the backend stack too with Express, GraphQL, PHP, and Firebase. I also finished my Master's in Computer Science with a research in Machine Learning. Because while shipping features is fun, I like knowing why things work. And which is why I continuously eager to learn."
     ],
     "email": "vionakaleb@gmail.com",
     "phone": "+6282311888164",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Website",
-        "url": "https://vionakaleb.github.io/me",
+        "url": "https://viona-kaleb.vercel.app/",
         "className": "fa fa-globe"
       },
       {
