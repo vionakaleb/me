@@ -8,6 +8,7 @@ export const portfolioData: PortfolioData = {
     image: "profilepic.jpg",
     bg: "profile-bg.JPG",
     resume: "viona-kaleb-resume.pdf",
+    bios: [""],
     bios2: [
       "- Developing features from UI/UX designs",
       "- Create logically functioning features, integrating APIs",
