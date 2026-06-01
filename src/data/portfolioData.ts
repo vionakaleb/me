@@ -75,7 +75,7 @@ export const portfolioData: PortfolioData = {
         degree: "BSIT",
         graduated: "2014",
         description:
-          "Was awarded a Bachelor's scholarship for being one of the top graduates, funded by the government and the campus.",
+          "Bachelor of Computer Science in IT. Was awarded a Bachelor's scholarship for being one of the top graduates, funded by the government and the campus.",
         logo: "campus.png",
       },
     ],
