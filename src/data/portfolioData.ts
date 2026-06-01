@@ -302,7 +302,7 @@ export const portfolioData: PortfolioData = {
         title: "ATS Resume Generator",
         description: "ATS Resume Generator, Analyzer, integrated with AI",
         image: "ats-generator.png",
-        url: "https://ats-generator.netlify.app/",
+        url: "https://ats-res-generator.vercel.app/",
         github: "",
         technology: ["React, Tailwind"],
       },
