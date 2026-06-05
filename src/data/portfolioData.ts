@@ -299,10 +299,10 @@ export const portfolioData: PortfolioData = {
     projectUrl: "https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     projects: [
       {
-        title: "ATS Resume Builder",
-        description: "ATS Resume Builder, Analyzer, integrated with AI",
+        title: "ATS Resume Generator",
+        description: "ATS Resume Generator, Analyzer, integrated with AI",
         image: "ats-generator.png",
-        url: "https://ats-resume-builder.vercel.app/",
+        url: "https://ats-res-generator.vercel.app/",
         github: "",
         technology: ["React, Vite, Tailwind"],
       },
