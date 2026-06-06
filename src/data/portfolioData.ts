@@ -3,11 +3,11 @@ import type { PortfolioData } from "../interface";
 export const portfolioData: PortfolioData = {
   main: {
     name: "Viona Kaleb",
-    fullname: "Viona Z. A. Kaleb",
+    fullname: "Viona Zatil Aqmar Kaleb",
     description: "A Software Engineer",
     image: "profilepic.jpg",
     bg: "profile-bg.JPG",
-    resume: "Frontend-Resume-Viona-Kaleb.pdf",
+    resume: "Software-Engineer-Frontend-Viona-Kaleb.pdf",
     bios: [""],
     bios2: [
       "- Developing features from UI/UX designs",
@@ -82,7 +82,7 @@ export const portfolioData: PortfolioData = {
     work: [
       {
         company: "Bank Mandiri",
-        title: "Front-End Web Developer",
+        title: "Software Engineer",
         years: "Nov 2023 - Now",
         description: "",
         descriptions: [
@@ -96,7 +96,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Hypestacks",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "2022 - 2023",
         description: "",
         descriptions: [
@@ -109,7 +109,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Telkomsel",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "Jan - Jun 2023",
         description: "",
         descriptions: [
@@ -122,7 +122,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Aplikasi Super",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "2021 - 2023",
         description: "",
         descriptions: [
@@ -135,7 +135,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Yummy Corp",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "Jul - Dec 2022",
         description: "",
         descriptions: [
@@ -148,7 +148,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Indolima",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "Jan - Jun 2022",
         description: "",
         descriptions: [
@@ -161,7 +161,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Hukum Online",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "Jul - Dec 2021",
 
         description: "",
@@ -172,7 +172,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Tristan Artha Media",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "Jan - Jun 2021",
 
         description: "",
@@ -212,7 +212,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         company: "Yamisok Platform",
-        title: "Front-End Web Developer",
+        title: "Frontend Engineer",
         years: "2018 - 2020",
         description: "",
         descriptions: [
