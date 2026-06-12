@@ -7,7 +7,7 @@ export const portfolioData: PortfolioData = {
     description: "A Software Engineer",
     image: "profilepic.jpg",
     bg: "profile-bg.JPG",
-    resume: "Software-Engineer-Frontend-Viona-Kaleb.pdf",
+    resume: "Frontend Developer Resume - Viona Kaleb.pdf",
     bios: [""],
     bios2: [
       "- Developing features from UI/UX designs",
