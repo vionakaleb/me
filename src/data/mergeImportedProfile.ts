@@ -121,3 +121,33 @@ export function mergeImportedProfile(
     },
   };
 }
+
+// Frontend Engineer
+// BMICG Jakarta | May-Aug 2017
+// Took aging codebases and improved them, refreshing the frontend to match updated brand guidelines. One of the projects was for Bank Muamalat, Indonesia's established Islamic banking institutions.
+// Skills: PHP, Jquery, CodeIgniter, MySQL
+
+// Frontend Engineer
+// Tristan Artha Media | Jan-Jun 2021
+// Developing a responsive sport tournament platform, delivering a seamless experience across mobile and desktop for spectators.
+// Skills: Next.js, Angular, GraphQL
+
+// Frontend Engineer
+// Hukumonline.com | Jul-Dec 2021
+// Taking a short project to help building Indonesia's reg-tech platform and legal news provider that democratizes access to the law.
+// Skills: Vue.js
+
+// Frontend Engineer
+// PT. Indolima Perkasa | Jan-Jun 2022
+// As a single, founding front-end developer, I am responsible for building the Igooana's core dashboard from the ground up. Shaping the architecture decisions and delivered a working product that operations teams relied on daily; to handle B2B sales operations, pipeline management, warehouse coordination, and logistics fleet tracking, all under one roof.
+// Skills: React.js and Firebase
+
+// Frontend Engineer
+// Yummy Corp | Jul-Dec 2022
+// Aiding ride-hailing drivers, end users, and kitchen staff to bridge cloud kitchens with point-of-sale systems, creating a seamless order flow. Building the interfaces that let users place orders which are instantly printed at the restaurant's POS for preparation. Resulting in faster turnaround, fewer order mistakes, and a smoother kitchen operation from screen to plate.
+// Skills: React.js and Firebase
+
+// Frontend Engineer
+// Telkomsel | Jan-Jun 2023
+// Helping Tekomsel to develop Verona, a collaborative website that allows vendors to register or update data independently.
+// Skills: Vue.js and Front-End Development

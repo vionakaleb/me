@@ -1,9 +1,9 @@
 {
   "main": {
     "fullname": "Viona Zatil Aqmar Kaleb",
-    "description": "Software Engineer | MSIT | Building Scalable Fintech, E-commerce & Interactive 3D Solutions | React Angular Vue Typescript Node",
+    "description": "Software Engineer | MSIT | Cat Lover",
     "bios": [
-      "Frontend-focused Software Engineer with 7+ years and a Master's in Computer Science. Currently digitizing banking operations across 1,000+ branches at Indonesia's largest state-owned bank. Previously architected the frontend stack for a UK fintech now serving 1.2M+ trading accounts, deployed 3D wayfinding tools across major Singapore landmarks, and shipped frontend apps at a YC-backed social commerce platform. On the side, I build internal tools like an ATS Resume Generator and Timesheet Builder to help my teammates."
+      "Software Engineer with 8 years of building digital products at large scale. Architected a UK trading platform's Frontend from its first commit, with USD124M+ revenues and serving 1.2 million accounts globally. Deployed 3D wayfinding apps to serve thousands of visitors in high-traffic Singapore buildings. Currently digitizing the largest state-owned bank in Indonesia, live in 1,000+ branches with 30 million users, helping to cut fraud by 85%. Deep TypeScript, React and Angular Frontend expertise. With Express, PHP and Python on the Backend. 90% test coverage habits, plus a Master's in Computer Science focused on Machine Learning. Outside work: Building tools to help people, trail running, novels and patting street cats.Open to interesting conversations. If you're building something good, say hi. Portfolio: https://viona-kaleb.vercel"
     ],
     "email": "vionakaleb@gmail.com",
     "phone": "+6282311888164",
@@ -33,29 +33,30 @@
     "education": [
       {
         "school": "President University",
-        "degree": "Master of Science in IT",
+        "degree": "Master of Science in IT (MSIT)",
         "graduated": "2026",
-        "description": "Information Technology",
+        "description": "",
         "logo": ""
       },
       {
         "school": "President University",
-        "degree": "Bachelor of Science in IT",
+        "degree": "Bachelor of Science in IT (BSIT)",
         "graduated": "2021",
-        "description": "Information Technology",
+        "description": "Awarded a Bachelor's scholarship for being one of the top graduates, funded by the government.",
         "logo": ""
       }
     ],
     "work": [
       {
-        "company": "PT Bank Mandiri (Persero) Tbk.",
-        "title": "Frontend Engineer",
-        "years": "November 2023 - Present",
+        "company": "Bank Mandiri",
+        "title": "Software Engineer",
+        "years": "December 2023 - Present",
         "location": "Jakarta, Indonesia",
         "description": "",
         "descriptions": [
-          "Smart Branch by Mandiri Building platform for the largest public State-Owned Enterprise bank in Indonesia. Digitalizing bank branch operations nationally, accelerating and reducing fraud by 85%.",
-          "KOPRA by Mandiri Developing features for Indonesia's leading wholesale banking platform. To name as the Best Integrated Trade Finance Digital Platform and the Best Wholesale Platform for Transaction Banking, recording an annual transaction volume exceeding IDR 10,000 trillion."
+          "Built features for Smart Branch by Mandiri, a digital banking platform live across 1,000+ branches with 30 million users nationwide, contributing to an 85% reduction in fraud incidents.",
+          "Shipped wholesale banking features for KOPRA by Mandiri, the platform behind IDR 10,000+ trillion (USD 600B+) in annual transaction volume, as Indonesia's Best Integrated Trade Financial Platform.",
+          "Delivered banking workflows that fulfilled strict security, compliance and audit standards in collaboration with product, backend and QA teams."
         ],
         "website": "https://www.bankmandiri.co.id/",
         "skills": [],
@@ -63,13 +64,30 @@
         "logo": ""
       },
       {
-        "company": "hypestacks",
-        "title": "Founding Frontend Developer",
-        "years": "November 2022 - November 2023",
-        "location": "",
+        "company": "Self Employed",
+        "title": "Freelance Software Engineer",
+        "years": "May 2017 - Present",
+        "location": "Jakarta, Indonesia",
         "description": "",
         "descriptions": [
-          "Founding the frontend stack of a fast-moving UK fintech product from its earliest stages. Taking challenge as cross-functional contributor (FE, BE, Data Analyst) on a real-time trading analytics platform, serving over 1.2 million trading accounts and 65+ prop firm clients globally."
+          "Delivered end-to-end frontend for platforms spanning fintech, logistics, legal tech, cloud kitchens and e-sports.",
+          "Built products from scratch as a founding developer and modernized legacy codebases across industries.",
+          "Clients include Telkomsel, Yummy Corp, PT. Indolima Perkasa, Hukumonline, Tristan Artha Media and BMICG Jakarta."
+        ],
+        "website": "",
+        "skills": [],
+        "projects": [],
+        "logo": ""
+      },
+      {
+        "company": "Hypestacks",
+        "title": "Frontend Engineer",
+        "years": "January 2023 - December 2023",
+        "location": "London, UK",
+        "description": "",
+        "descriptions": [
+          "Architected and built the frontend stack from scratch for YourPropFirm, a B2B real-time trading analytics platform with USD124M+ revenues, serving 1.2M+ trading accounts and 65+ prop firm clients globally.",
+          "Worked cross-functionally (frontend, backend, Power BI) with a distributed international team to turn complex trading concepts into performant real-time data visualization UI."
         ],
         "website": "https://hypestacks.com/",
         "skills": [],
@@ -77,27 +95,15 @@
         "logo": ""
       },
       {
-        "company": "Telkomsel",
-        "title": "Frontend Developer",
-        "years": "January 2023 - June 2023",
-        "location": "",
-        "description": "",
-        "descriptions": [
-          "Helping Tekomsel to develop a collaborative website that allows vendors to register or update data independently."
-        ],
-        "website": "https://verona.telkomsel.com/",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
         "company": "SuperApp (YC W18)",
-        "title": "Frontend Web Developer",
-        "years": "2021 - 2023",
+        "title": "Frontend Engineer",
+        "years": "January 2021 - January 2023",
         "location": "",
         "description": "",
         "descriptions": [
-          "Assisting social commerce and hyper-local supply chain platform to digitize Indonesia's retail ecosystem. Owned the full front-end delivery cycle across multiple product lines, while pushing test coverage above 90% per feature."
+          "Owned full frontend delivery across multiple product lines for a social commerce and hyper-local supply chain platform serving Indonesia's retail ecosystem.",
+          "Pushed test coverage to 90% using Jest and React Testing Library, cutting regression bugs in production.",
+          "Shipped merchant onboarding, ordering and logistics features in partnership with product and design."
         ],
         "website": "https://superapp.id/",
         "skills": [],
@@ -105,69 +111,14 @@
         "logo": ""
       },
       {
-        "company": "Yummy Corp",
-        "title": "Frontend Web Developer",
-        "years": "July 2022 - December 2022",
-        "location": "Kota Tangerang Selatan",
-        "description": "",
-        "descriptions": [
-          "Aiding ride-hailing drivers, end users, and kitchen staff to bridge cloud kitchens with point-of-sale systems, creating a seamless order flow. Building the interfaces that let users place orders which are instantly printed at the restaurant's POS for preparation. Resulting in faster turnaround, fewer order mistakes, and a smoother kitchen operation from screen to plate."
-        ],
-        "website": "https://www.yummycorp.com/",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
-        "company": "PT. Indolima Perkasa",
-        "title": "Founding Frontend Web Developer",
-        "years": "January 2022 - June 2022",
-        "location": "Jakarta, Indonesia",
-        "description": "",
-        "descriptions": [
-          "As a single, founding front-end developer, I am responsible for building the company's core dashboard from the ground up. Shaping the architecture decisions and delivered a working product that operations teams relied on daily; to handle B2B sales operations, pipeline management, warehouse coordination, and logistics fleet tracking, all under one roof."
-        ],
-        "website": "https://igooana.id/",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
-        "company": "Hukumonline.com",
-        "title": "Frontend Web Developer",
-        "years": "July 2021 - December 2021",
-        "location": "Jakarta, Indonesia",
-        "description": "",
-        "descriptions": [
-          "Taking a short project to help building Indonesia's reg-tech platform and legal news provider that democratizes access to the law."
-        ],
-        "website": "https://www.hukumonline.com/",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
-        "company": "Tristan Artha Media",
-        "title": "Frontend Web Developer",
-        "years": "January 2021 - June 2021",
-        "location": "",
-        "description": "",
-        "descriptions": [
-          "Developing a responsive sport tournament platform, delivering a seamless experience across mobile and desktop for spectators."
-        ],
-        "website": "https://www.linkedin.com/in/tristan-artha-media-5a6286184",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
         "company": "Adactive Asia",
-        "title": "Frontend Developer",
+        "title": "Frontend Engineer",
         "years": "January 2020 - December 2020",
         "location": "Singapore",
         "description": "",
         "descriptions": [
-          "Shipped 3D wayfinding solutions installed across major Singapore landmarks, including Singapore Discovery Centre, Supreme Courts, Woodsquare, and Republic Plaza. Helping thousands of visitors find their way inside complex facilities in real-time. Reduced the load on front desk staff and improved the visitor experience in high-traffic government and commercial buildings."
+          "Deployed 3D wayfinding systems to major Singapore landmarks including the Supreme Court, Republic Plaza, Woods Square, serving thousands of visitors in high-traffic government and commercial buildings.",
+          "Integrated 3D rendering with real-time location data alongside a multinational engineering team."
         ],
         "website": "https://www.adactive.asia/",
         "skills": [],
@@ -175,13 +126,14 @@
         "logo": ""
       },
       {
-        "company": "Yamisok Platform Indonesia",
-        "title": "Frontend Web Developer",
+        "company": "Yamisok Platform",
+        "title": "Frontend Engineer",
         "years": "January 2018 - January 2020",
         "location": "Kota Tangerang Selatan",
         "description": "",
         "descriptions": [
-          "Building Indonesia's first integrated e-sports community and tournament platform designed to connect players with tournament organizers. Contributed to shaping Indonesia's competitive gaming scene at a time when organized e-sports infrastructure was still new. The platform gave grassroots players a real path to competitive play, and gave sponsors like Tokopedia, JD.ID, and Firstmedia a direct channel into the gaming community."
+          "Built Indonesia's first integrated e-sports community and tournament platform, connecting players with tournament organizers and sponsors. Supported partnerships with Tokopedia, JD.ID and Firstmedia.",
+          "Shaped the early gaming scene in Indonesia by giving players clear path from casual to competitive play."
         ],
         "website": "https://yamisok.com",
         "skills": [],
@@ -189,29 +141,16 @@
         "logo": ""
       },
       {
-        "company": "PT. Kawasan Industri Jababeka, Tbk",
+        "company": "Jababeka",
         "title": "IT Technician Intern",
-        "years": "January 2018 - April 2018",
+        "years": "August 2017 - December 2017",
         "location": "West Java, Indonesia",
         "description": "",
         "descriptions": [
-          "Starting my career as an IT/Network Support intern at Jababeka, one of Indonesia's largest industrial estate developers. Got hands-on experience keeping the tech running for a company that manages an entire industrial ecosystem"
+          "Starting career at one of Indonesia's largest industrial estate developers.",
+          "Got hands-on experience keeping the tech running for a company that manages an entire industrial ecosystem."
         ],
         "website": "https://www.jababeka.com/id/home/",
-        "skills": [],
-        "projects": [],
-        "logo": ""
-      },
-      {
-        "company": "Brand Marketing Institute Consulting Group (BMICG)",
-        "title": "Fullstack Web Developer",
-        "years": "May 2017 - August 2017",
-        "location": "South Jakarta",
-        "description": "",
-        "descriptions": [
-          "Took aging codebases and improved them, whether that meant cleaning up legacy PHP, restructuring database queries, or refreshing the front-end to match updated brand guidelines. One of the projects was for Bank Muamalat, one of Indonesia's established Islamic banking institutions."
-        ],
-        "website": "https://www.linkedin.com/company/brand-marketing-institute-consulting-group-bmicg-/about/",
         "skills": [],
         "projects": [],
         "logo": ""
@@ -219,15 +158,15 @@
     ],
     "skills": [
       {
-        "name": "react",
+        "name": "PostgreSQL",
         "level": ""
       },
       {
-        "name": "Next.js",
+        "name": "Supabase",
         "level": ""
       },
       {
-        "name": "Angular",
+        "name": "Startups",
         "level": ""
       }
     ]
@@ -235,17 +174,11 @@
   "portfolio": {
     "projects": []
   },
-  "certifications": [
-    "Microsoft Developer Conference",
-    "Python Conference",
-    "Duolingo English Test",
-    "TOEFL ITP",
-    "English Course on Sr. High"
-  ],
+  "certifications": ["Duolingo English Test", "TOEFL ITP"],
   "honorsAwards": [
-    "Bachelor Degree Scholarship Award",
-    "The 2nd National Science Camp (English Olympiad)",
+    "Bachelor Scholarship Awardee",
     "2nd place in BCA Techvation (Tech Innovation)",
-    "Web Development Competition"
+    "Web Development Competition",
+    "The 2nd National Science Camp (English Olympiad)"
   ]
 }
