@@ -150,4 +150,4 @@ export function mergeImportedProfile(
 // Frontend Engineer
 // Telkomsel | Jan-Jun 2023
 // Helping Tekomsel to develop Verona, a collaborative website that allows vendors to register or update data independently.
-// Skills: Vue.js and Front-End Development
+// Skills: Vue.js, React.js, Firebase, Next.js, Angular, GraphQL, PHP, Jquery, CodeIgniter, MySQL
