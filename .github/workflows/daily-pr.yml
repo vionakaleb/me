@@ -5,8 +5,8 @@ env:
 
 on:
   schedule:
-    # Runs every day at 14:16 GMT+7 (07:16 UTC)
-    - cron: "16 7 * * *"
+    # Runs every day at 14:22 GMT+7 (07:22 UTC)
+    - cron: "22 7 * * *"
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 permissions:
@@ -34,6 +34,10 @@ jobs:
         run: |
           BRANCH_NAME="auto-update/$(date +'%Y-%m-%d')"
           echo "name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Delete existing remote branch if present
+        run: |
+          git push origin --delete "${{ steps.branch.outputs.name }}" || true
 
       - name: Create or switch to the daily branch
         run: |
