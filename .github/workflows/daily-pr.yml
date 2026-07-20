@@ -5,8 +5,8 @@ env:
 
 on:
   schedule:
-    # Runs every day at 14:22 GMT+7 (07:22 UTC)
-    - cron: "22 7 * * *"
+    # Runs every day at 14:32 GMT+7 (07:32 UTC)
+    - cron: "32 7 * * *"
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 permissions:
@@ -50,8 +50,6 @@ jobs:
           # Daily Workflow Update
 
           Last updated: ${TIMESTAMP}
-
-          Write your content here. Change this to whatever you want.
           EOF
 
       - name: Check for actual changes
