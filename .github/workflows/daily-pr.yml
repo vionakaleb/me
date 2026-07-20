@@ -80,7 +80,7 @@ jobs:
           This PR was created automatically by the **Daily Auto Commit & PR** workflow.
 
           ## What changed
-          - Updated \`logs/daily-updates.log\` with today's timestamp.
+          - Updated \`workflow.md\` with today's timestamp.
 
           > Review and merge when ready." \
             --base "${{ env.TARGET_BRANCH }}" \
