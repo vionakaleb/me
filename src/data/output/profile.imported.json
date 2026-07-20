@@ -3,7 +3,7 @@
     "fullname": "Viona Zatil Aqmar Kaleb",
     "description": "Software Engineer | MSIT | Cat Lover",
     "bios": [
-      "Software Engineer with over 8 years of building digital products at large scale. Architected a UK trading platform's Frontend from its first commit, with USD124M+ revenues and serving 1.2 million accounts globally. Deployed 3D wayfinding apps to serve thousands of visitors in high-traffic Singapore buildings. Currently digitizing the largest state-owned bank in Indonesia, live in 1,000+ branches with 30 million users, helping to cut fraud by 85%. Deep TypeScript, React and Angular Frontend expertise. With Express, PHP and Python on the Backend. 90% test coverage habits, plus a Master's in Computer Science focused on Machine Learning. Outside work: Building tools to help people, trail running, novels and patting street cats.Open to interesting conversations. If you're building something good, say hi. Portfolio: https://viona-kaleb.vercel"
+      "Software Engineer with over 8 years of building digital products at large scale. Architected a UK trading platform's Frontend from its first commit, with USD124M+ revenues and serving 1.2 million accounts globally. Deployed 3D wayfinding apps to serve thousands of visitors in high-traffic Singapore buildings. Currently digitizing the largest state-owned bank in Indonesia, live in 1,000+ branches with 30 million users, helping to cut fraud by 85%. Deep TypeScript, React and Angular Frontend expertise. With Express, PHP and Python on the Backend. 90% test coverage habits, plus a Master's in Computer Science focused on Machine Learning. Outside work: Building tools to help people, trail running, novels and patting street cats.Open to interesting conversations. If you're building something good, say hi. Portfolio: https://viona-kaleb.com"
     ],
     "email": "vionakaleb@gmail.com",
     "phone": "+6282311888164",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Website",
-        "url": "https://viona-kaleb.vercel.app/",
+        "url": "https://viona-kaleb.com/",
         "className": "fa fa-globe"
       },
       {

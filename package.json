@@ -1,7 +1,7 @@
 {
   "name": "me",
-  "homepage": "https://viona-kaleb.vercel.app/",
-  "author": "Viona Kaleb <vionakaleb@gmail.com>(https://viona-kaleb.vercel.app/)",
+  "homepage": "https://viona-kaleb.com/",
+  "author": "Viona Kaleb <vionakaleb@gmail.com>(https://viona-kaleb.com/)",
   "private": true,
   "version": "2.1.1",
   "type": "module",
