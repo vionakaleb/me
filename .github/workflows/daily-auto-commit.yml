@@ -1,0 +1,58 @@
+name: Daily Auto Commit
+
+env:
+  TARGET_BRANCH: main
+
+on:
+  schedule:
+    # Runs every day at 10:35 GMT+7 (03:35 UTC)
+    - cron: "35 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Make your daily changes
+        run: |
+          TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+          cat > workflow.md << EOF
+          # Daily Workflow Update
+
+          Last updated: ${TIMESTAMP}
+          EOF
+
+      - name: Check for actual changes
+        id: changes
+        run: |
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git add -A
+          git commit -m "chore: daily auto-update $(date +'%Y-%m-%d')"
+          git push origin "${{ env.TARGET_BRANCH }}"
+
+      - name: Pull latest changes
+        run: |
+          git pull origin "${{ env.TARGET_BRANCH }}"
